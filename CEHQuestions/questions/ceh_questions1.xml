@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<question id=1 topic=1 answer=D>
+		<text>What does the -oX flag do in an Nmap scan?</text>
+		<A>Perform an express scan</A>
+		<B>Output the results in truncated format to the screen</B>
+		<C>Perform an Xmas scan</C>
+		<D>Output the results in XML format to a file</D>
+		<explanation></explanation>
+	</question>
+	<question id=2 topic=1 answer=B>
+		<text>You are a security officer of a company. You had an alert from IDS that indicates that one PC on your Intranet is connected to a blacklisted IP address (C2 Server) on the Internet. The IP address was blacklisted just before the alert. You are staring an investigation to roughly analyze the severity of the situation. Which of the following is appropriate to analyze?</text>
+		<A>Event logs on the PC</A>
+		<B>Internet Firewall/Proxy log</B>
+		<C>IDS log</C>
+		<D>Event logs on domain controller</D>
+		<explanation></explanation>
+	</question>
+	<question id=3 topic=-1 answer=A>
+		<text>Which of the below hashing functions are not recommended for use?</text>
+		<A>SHA-1.ECC</A>
+		<B>MD5, SHA-1</B>
+		<C>SHA-2. SHA-3</C>
+		<D>MD5. SHA-5</D>
+		<explanation></explanation>
+	</question>
+	<question id=4 topic=1 answer=C>
+		<text>You perform a scan of your company’s network and discover that TCP port 123 is open. What services by default run on TCP port 123?</text>
+		<A>Telnet</A>
+		<B>POP3</B>
+		<C>Network Time Protocol</C>
+		<D>DNS</D>
+		<explanation></explanation>
+	</question>
+	<question id=5 topic=1 answer=A>
+		<text>Assume a business-crucial web-site of some company that is used to sell handsets to the customers worldwide. All the developed components are reviewed by the security team on a monthly basis. In order to drive business further, the web-site developers decided to add some 3rd party marketing tools on it. The tools are written in JavaScript and can track the customer’s activity on the site. These tools are located on the servers of the marketing company. What is the main security risk associated with this scenario?</text>
+		<A>External script contents could be maliciously modified without the security team knowledge</A>
+		<B>External scripts have direct access to the company servers and can steal the data from there</B>
+		<C>There is no risk at all as the marketing services are trustworthy</C>
+		<D>External scripts increase the outbound company data traffic which leads greater financial losses</D>
+		<explanation></explanation>
+	</question>
+	<question id=6 topic=1 answer=A>
+		<text>Code injection is a form of attack in which a malicious user:</text>
+		<A>Inserts text into a data field that gets interpreted as code</A>
+		<B>Gets the server to execute arbitrary code using a buffer overflow</B>
+		<C>Inserts additional code into the JavaScript running in the browser</C>
+		<D>Gains access to the codebase on the server and inserts new code</D>
+		<explanation></explanation>
+	</question>
+	<question id=7 topic=1 answer=B>
+		<text>Which of the following scanning method splits the TCP header into several packets and makes it difficult for packet filters to detect the purpose of the packet?</text>
+		<A>ICMP Echo scanning</A>
+		<B>SYN/FIN scanning using IP fragments</B>
+		<C>ACK flag probe scanning</C>
+		<D>IPID scanning</D>
+		<explanation></explanation>
+	</question>
+	<question id=8 topic=1 answer=C>
+		<text>Which of the following attacks exploits web age vulnerabilities that allow an attacker to force an unsuspecting user’s browser to send malicious requests they did not intend?</text>
+		<A>Command Injection Attacks</A>
+		<B>File Injection Attack</B>
+		<C>Cross-Site Request Forgery (CSRF)</C>
+		<D>Hidden Field Manipulation Attack</D>
+		<explanation></explanation>
+	</question>
+	<question id=9 topic=1 answer=C>
+		<text>Which of the following DoS tools is used to attack target web applications by starvation of available sessions on the web server? The tool keeps sessions at halt using never-ending POST transmissions and sending an arbitrarily large content-length header value.</text>
+		<A>My Doom</A>
+		<B>Astacheldraht</B>
+		<C>R-U-Dead-Yet?(RUDY)</C>
+		<D>LOIC</D>
+		<explanation></explanation>
+	</question>
+	<question id=10 topic=1 answer=B>
+		<text>Some clients of TPNQM SA were redirected to a malicious site when they tried to access the TPNQM main site. Bob, a system administrator at TPNQM SA, found that they were victims of DNS Cache Poisoning. What should Bob recommend to deal with such a threat?</text>
+		<A>The use of security agents in clients’ computers</A>
+		<B>The use of DNSSEC</B>
+		<C>The use of double-factor authentication</C>
+		<D>Client awareness</D>
+		<explanation></explanation>
+	</question>
+	<question id=10 topic=1 answer=C>
+		<text>DHCP snooping is a great solution to prevent rogue DHCP servers on your network. Which security feature on switches leverages the DHCP snooping database to help prevent man-in-the-middle attacks?</text>
+		<A>Port security</A>
+		<B>A Layer 2 Attack Prevention Protocol (LAPP)</B>
+		<C>Dynamic ARP inspection (DAI)</C>
+		<D>Spanning tree</D>
+		<explanation></explanation>
+	</question>
+	<question id=13 topic=1 answer=A>
+		<text>You are the Network Admin, and you get a compliant that some of the websites are no longer accessible. You try to ping the servers and find them to be reachable. Then you type the IP address and then you try on the browser, and find it to be accessible. But they are not accessible when you try using the URL. What may be the problem?</text>
+		<A>Traffic is Blocked on UDP Port 53</A>
+		<B>Traffic is Blocked on UDP Port 80</B>
+		<C>Traffic is Blocked on UDP Port 54</C>
+		<D>Traffic is Blocked on UDP Port 80</D>
+		<explanation></explanation>
+	</question>
+	<question id=15 topic=1 answer=>
+		<text>You are looking for SQL injection vulnerability by sending a special character to web applications. Which of the following is the most useful for quick validation?</text>
+		<A>Double quotation</A>
+		<B>Backslash</B>
+		<C>Semicolon</C>
+		<D>Single quotation</D>
+		<explanation></explanation>
+	</question>
+	<question id=19 topic=-1 answer=A>
+		<text>The collection of potentially actionable, overt, and publicly available information is known as</text>
+		<A>Open-source intelligence</A>
+		<B>Human intelligence</B>
+		<C>Social intelligence</C>
+		<D>Real intelligence</D>
+		<explanation></explanation>
+	</question>
+	<question id=22 topic=-1 answer=B>
+		<text>An unauthorized individual enters a building following an employee through the employee entrance after the lunch rush. What type of breach has the individual just performed?</text>
+		<A>Reverse Social Engineering</A>
+		<B>Tailgating</B>
+		<C>Piggybacking</C>
+		<D>Announced</D>
+		<explanation></explanation>
+	</question>
+	<question id=23 topic=-1 answer=D>
+		<text>Which of the following provides a security professional with most information about the system’s security posture?</text>
+		<A>Wardriving, warchalking, social engineering</A>
+		<B>Social engineering, company site browsing, tailgating</B>
+		<C>Phishing, spamming, sending trojans</C>
+		<D>Port scanning, banner grabbing, service identification</D>
+		<explanation></explanation>
+	</question>
+	<question id=25 topic=-1 answer=D>
+		<text>When a security analyst prepares for the formal security assessment - what of the following should be done in order to determine inconsistencies in the secure assets database and verify that system is compliant to the minimum security baseline?</text>
+		<A>Data items and vulnerability scanning</A>
+		<B>Interviewing employees and network engineers</B>
+		<C>Reviewing the firewalls configuration</C>
+		<D>Source code review</D>
+		<explanation></explanation>
+	</question>
+	<question id=29 topic=-1 answer=A>
+		<text>What is the minimum number of network connections in a multi homed firewall?</text>
+		<A>3</A>
+		<B>5</B>
+		<C>4</C>
+		<D>2</D>
+		<explanation></explanation>
+	</question>
+	<question id=31 topic=-1 answer=B>
+		<text>Sam is working as s pen-tester in an organization in Houston. He performs penetration testing on IDS in order to find the different ways an attacker uses to evade the IDS. Sam sends a large amount of packets to the target IDS that generates alerts, which enable Sam to hide the real traffic. What type of method is Sam using to evade IDS?</text>
+		<A>Denial-of-Service</A>
+		<B>False Positive Generation</B>
+		<C>Insertion Attack</C>
+		<D>Obfuscating</D>
+		<explanation></explanation>
+	</question>
+	<question id=34 topic=-1 answer=D>
+		<text>What type of analysis is performed when an attacker has partial knowledge of inner-workings of the application?</text>
+		<A>Black-box</A>
+		<B>Announced</B>
+		<C>White-box</C>
+		<D>Grey-box</D>
+		<explanation></explanation>
+	</question>
+	<question id=36 topic=1 answer=D>
+		<text>A hacker is an intelligent individual with excellent computer skills and the ability to explore a computer's software and hardware without the owner’s permission. Their intention can either be to simply gain knowledge or to illegally make changes. Which of the following class of hacker refers to an individual who works both offensively and defensively at various times?</text>
+		<A>Suicide Hacker</A>
+		<B>Black Hat</B>
+		<C>White Hat</C>
+		<D>Gray Hat</D>
+		<explanation></explanation>
+	</question>
+	<question id=39 topic=1 answer=B>
+		<text>Identify the web application attack where the attackers exploit vulnerabilities in dynamically generated web pages to inject client-side script into web pages viewed by other users.</text>
+		<A>SQL injection attack</A>
+		<B>Cross-Site Scripting (XSS)</B>
+		<C>LDAP Injection attack</C>
+		<D>Cross-Site Request Forgery (CSRF)</D>
+		<explanation></explanation>
+	</question>
+	<question id=44 topic=1 answer=C>
+		<text>DNS cache snooping is a process of determining if the specified resource address is present in the DNS cache records. It may be useful during the examination of the network to determine what software update resources are used, thus discovering what software is installed. What command is used to determine if the entry is present in DNS cache?</text>
+		<A>nslookup -fullrecursive update.antivirus.com</A>
+		<B>dnsnooping –rt update.antivirus.com</B>
+		<C>nslookup -norecursive update.antivirus.com</C>
+		<D>dns --snoop update.antivirus.com</D>
+		<explanation></explanation>
+	</question>
+	<question id=46 topic=1 answer=C>
+		<text>What network security concept requires multiple layers of security controls to be placed throughout an IT infrastructure, which improves the security posture of an organization to defend against malicious attacks or potential vulnerabilities? What kind of Web application vulnerability likely exists in their software?</text>
+		<A>Host-Based Intrusion Detection System</A>
+		<B>Security through obscurity</B>
+		<C>Defense in depth</C>
+		<D>Network-Based Intrusion Detection System</D>
+		<explanation></explanation>
+	</question>
+	<question id=48 topic=1 answer=A>
+		<text>When tuning security alerts, what is the best approach?</text>
+		<A>Tune to avoid False positives and False Negatives</A>
+		<B>Rise False positives Rise False Negatives</B>
+		<C>Decrease the false positives</C>
+		<D>Decrease False negatives</D>
+		<explanation></explanation>
+	</question>
+	<question id=51 topic=1 answer=D>
+		<text>Bob, your senior colleague, has sent you a mail regarding a deal with one of the clients. You are requested to accept the offer and you oblige. After 2 days. Bob denies that he had ever sent a mail. What do you want to ""know"" to prove yourself that it was Bob who had send a mail?</text>
+		<A>Authentication</A>
+		<B>Confidentiality</B>
+		<C>Integrity</C>
+		<D>Non-Repudiation</D>
+		<explanation></explanation>
+	</question>
+	<question id=53 topic=-1 answer=C>
+		<text>Why containers are less secure that virtual machines?</text>
+		<A>Host OS on containers has a larger surface attack.</A>
+		<B>Containers may full fill disk space of the host.</B>
+		<C>A compromise container may cause a CPU starvation of the host.</C>
+		<D>Containers are attached to the same virtual network.</D>
+		<explanation></explanation>
+	</question>
+	<question id=56 topic=-1 answer=C>
+		<text>Developers at your company are creating a web application which will be available for use by anyone on the Internet, The developers have taken the approach of implementing a Three-Tier Architecture for the web application. The developers are now asking you which network should the Presentation Tier (front- end web server) be placed in?</text>
+		<A>isolated vlan network</A>
+		<B>Mesh network</B>
+		<C>DMZ network</C>
+		<D>Internal network</D>
+		<explanation></explanation>
+	</question>
+	<question id=58 topic=-1 answer=B>
+		<text>An attacker, using a rogue wireless AP, performed an MITM attack and injected an HTML code to embed a malicious applet in all HTTP connections. When users accessed any page, the applet ran and exploited many machines. Which one of the following tools the hacker probably used to inject HTML code?</text>
+		<A>Wireshark</A>
+		<B>Ettercap</B>
+		<C>Aircrack-ng</C>
+		<D>Tcpdump</D>
+		<explanation></explanation>
+	</question>
+	<question id=61 topic=-1 answer=>
+		<text>Email is transmitted across the Internet using the Simple Mail Transport Protocol. SMTP does not encrypt email, leaving the information in the message vulnerable to being read by an unauthorized person. SMTP can upgrade a connection between two mail servers to use TLS. Email transmitted by SMTP over TLS is encrypted. What is the name of the command used by SMTP to transmit email over TLS?</text>
+		<A>OPPORTUNISTICTLS STARTTLS</A>
+		<B>FORCETLS</B>
+		<C>UPGRADETLS</C>
+		<D>STARTTLS Answer: D</D>
+		<explanation></explanation>
+	</question>
+	<question id=63 topic=-1 answer=C>
+		<text>In which of the following password protection technique, random strings of characters are added to the password before calculating their hashes?</text>
+		<A>Keyed Hashing</A>
+		<B>Key Stretching</B>
+		<C>Salting</C>
+		<D>Double Hashing</D>
+		<explanation></explanation>
+	</question>
+	<question id=64 topic=-1 answer=D>
+		<text>The network team has well-established procedures to follow for creating new rules on the firewall. This includes having approval from a manager prior to implementing any new rules. While reviewing the firewall configuration, you notice a recently implemented rule but cannot locate manager approval for it. What would be a good step to have in the procedures for a situation like this?</text>
+		<A>Have the network team document the reason why the rule was implemented without prior manager approval.</A>
+		<B>Monitor all traffic using the firewall rule until a manager can approve it.</B>
+		<C>Do not roll back the firewall rule as the business may be relying upon it, but try to get manager approval as soon as possible.</C>
+		<D>Immediately roll back the firewall rule until a manager can approve it</D>
+		<explanation></explanation>
+	</question>
+	<question id=65 topic=-1 answer=A>
+		<text>Identify the UDP port that Network Time Protocol (NTP) uses as its primary means of communication?</text>
+		<A>123</A>
+		<B>161</B>
+		<C>69</C>
+		<D>113</D>
+		<explanation></explanation>
+	</question>
+	<question id=69 topic=-1 answer=D>
+		<text>If you want only to scan fewer ports than the default scan using Nmap tool, which option would you use?</text>
+		<A>-sP</A>
+		<B>-P</B>
+		<C>-r</C>
+		<D>-F</D>
+		<explanation></explanation>
+	</question>
+	<question id=74 topic=-1 answer=D>
+		<text>Which of the following is an adaptive SQL Injection testing technique used to discover coding errors by inputting massive amounts of random data and observing the changes in the output?</text>
+		<A>Function Testing</A>
+		<B>Dynamic Testing</B>
+		<C>Static Testing</C>
+		<D>Fuzzing Testing</D>
+		<explanation></explanation>
+	</question>
+	<question id=78 topic=-1 answer=C>
+		<text>Company XYZ has asked you to assess the security of their perimeter email gateway. From your office in New York, you craft a specially formatted email message and send it across the Internet to an employee of Company XYZ. The employee of Company XYZ is aware of your test. Your email message looks like this: From: jim_miller@companyxyz.com To: michelle_saunders@companyxyz.com Subject: Test message Date: 4/3/2017 14:37 The employee of Company XYZ receives your email message. This proves that Company XYZ's email gateway doesn't prevent what?</text>
+		<A>Email Phishing</A>
+		<B>Email Masquerading</B>
+		<C>Email Spoofing</C>
+		<D>Email Harvesting</D>
+		<explanation></explanation>
+	</question>
+	<question id=83 topic=-1 answer=C>
+		<text>Analyst is investigating proxy logs and found out that one of the internal user visited website storing suspicious Java scripts. After opening one of them, he noticed that it is very hard to understand the code and that all codes differ from the typical Java script. What is the name of this technique to hide the code and extend analysis time?</text>
+		<A>Encryption</A>
+		<B>Code encoding</B>
+		<C>Obfuscation</C>
+		<D>Steganography</D>
+		<explanation></explanation>
+	</question>
+	<question id=84 topic=-1 answer=D>
+		<text>Which of the following Bluetooth hacking techniques does an attacker use to send messages to users without the recipient’s consent, similar to email spamming?</text>
+		<A>Bluesmacking</A>
+		<B>Bluesniffing</B>
+		<C>Bluesnarfing</C>
+		<D>Bluejacking</D>
+		<explanation></explanation>
+	</question>
+	<question id=86 topic=-1 answer=C>
+		<text>You are a Penetration Tester and are assigned to scan a server. You need to use a scanning technique wherein the TCP Header is split into many packets so that</text>
+		<D>Inverse TCP flag scanning</D>
+		<A>ACK flag scanning</A>
+		<B>TCP Scanning</B>
+		<C>IP Fragment Scanning</C>
+		<explanation></explanation>
+	</question>
+	<question id=91 topic=1 answer=A>
+		<text>A hacker named Jack is trying to compromise a bank’s computer system. He needs to know the operating system of that computer to launch further attacks. What process would help him?</text>
+		<A>Banner Grabbing</A>
+		<B>IDLE/IPID Scanning</B>
+		<C>SSDP Scanning</C>
+		<D>UDP Scanning</D>
+		<explanation></explanation>
+	</question>
+	<question id=93 topic=1 answer=A>
+		<text>What type of vulnerability/attack is it when the malicious person forces the user’s browser to send an authenticated request to a server?</text>
+		<A>Cross-site request forgery</A>
+		<B>Cross-site scripting</B>
+		<C>Session hijacking</C>
+		<D>Server side request forgery</D>
+		<explanation></explanation>
+	</question>
+	<question id=97 topic=-1 answer=B>
+		<text>Which Nmap option would you use if you were not concerned about being detected and wanted to perform a very fast scan?</text>
+		<A>–T0</A>
+		<B>–T5</B>
+		<C>-O</C>
+		<D>-A</D>
+		<explanation></explanation>
+	</question>
+	<question id=100 topic=1 answer=A>
+		<text>Bob finished a C programming course and created a small C application to monitor the network traffic and produce alerts when any origin sends “many” IP packets, based on the average number of packets sent by all origins and using some thresholds. In concept, the solution developed by Bob is actually:</text>
+		<A>Just a network monitoring tool</A>
+		<B>A signature-based IDS</B>
+		<C>A hybrid IDS</C>
+		<D>A behavior-based IDS</D>
+		<explanation></explanation>
+	</question>
+	<question id=105 topic=2 answer=A>
+		<text>The use of technologies like IPSec can help guarantee the following: authenticity, integrity, confidentiality and</text>
+		<A>non-repudiation.</A>
+		<B>operability.</B>
+		<C>security.</C>
+		<D>usability.</D>
+		<explanation></explanation>
+	</question>
+	<question id=109 topic=2 answer=>
+		<text>Which of the following processes evaluates the adherence of an organization to its stated security policy?</text>
+		<A>Vulnerability assessment</A>
+		<B>Penetration testing</B>
+		<C>Risk assessment</C>
+		<D>Security auditing</D>
+		<explanation></explanation>
+	</question>
+	<question id=111 topic=2 answer=B>
+		<text>The precaution of prohibiting employees from bringing personal computing devices into a facility is what type of security control?</text>
+		<A>Physical</A>
+		<B>Procedural</B>
+		<C>Technical</C>
+		<D>Compliance</D>
+		<explanation></explanation>
+	</question>
+	<question id=112 topic=2 answer=A>
+		<text>Which tool would be used to collect wireless packet data?</text>
+		<A>NetStumbler</A>
+		<B>John the Ripper</B>
+		<C>Nessus</C>
+		<D>Netcat</D>
+		<explanation></explanation>
+	</question>
+	<question id=113 topic=-2 answer=A>
+		<text>After gaining access to the password hashes used to protect access to a web based application, knowledge of which cryptographic algorithms would be useful to gain access to the application?</text>
+		<A>SHA1</A>
+		<B>Diffie-Helman</B>
+		<C>RSA</C>
+		<D>AES</D>
+		<explanation></explanation>
+	</question>
+	<question id=116 topic=2 answer=A>
+		<text>Which of the following open source tools would be the best choice to scan a network for potential targets?</text>
+		<A>NMAP</A>
+		<B>NIKTO</B>
+		<C>CAIN</C>
+		<D>John the Ripper</D>
+		<explanation></explanation>
+	</question>
+	<question id=119 topic=2 answer=A>
+		<text>Which property ensures that a hash function will not produce the same hashed value for two different messages?</text>
+		<A>Collision resistance</A>
+		<B>Bit length</B>
+		<C>Key strength</C>
+		<D>Entropy</D>
+		<explanation></explanation>
+	</question>
+	<question id=123 topic=2 answer=D>
+		<text>What is one thing a tester can do to ensure that the software is trusted and is not changing or tampering with critical data on the back end of a system it is loaded on?</text>
+		<A>Proper testing</A>
+		<B>Secure coding principles</B>
+		<C>Systems security and architecture review</C>
+		<D>Analysis of interrupts within the software</D>
+		<explanation></explanation>
+	</question>
+	<question id=126 topic=2 answer=B>
+		<text>What are the three types of authentication?</text>
+		<A>Something you: know, remember, prove</A>
+		<B>Something you: have, know, are</B>
+		<C>Something you: show, prove, are</C>
+		<D>Something you: show, have, prove</D>
+		<explanation></explanation>
+	</question>
+	<question id=129 topic=2 answer=C>
+		<text>Which of the following resources does NMAP need to be used as a basic vulnerability scanner covering several vectors like SMB, HTTP and FTP?</text>
+		<A>Metasploit scripting engine</A>
+		<B>Nessus scripting engine</B>
+		<C>NMAP scripting engine</C>
+		<D>SAINT scripting engine</D>
+		<explanation></explanation>
+	</question>
+	<question id=131 topic=2 answer=B>
+		<text>A tester has been hired to do a web application security test. The tester notices that the site is dynamic and must make use of a back end database. In order for the tester to see if SQL injection is possible, what is the first character that the tester should use to attempt breaking a valid SQL request?</text>
+		<A>Semicolon</A>
+		<B>Single quote</B>
+		<C>Exclamation mark</C>
+		<D>Double quote</D>
+		<explanation></explanation>
+	</question>
+	<question id=132 topic=2 answer=C>
+		<text>A security consultant decides to use multiple layers of anti-virus defense, such as end user desktop anti-virus and E-mail gateway. This approach can be used to mitigate which kind of attack?</text>
+		<A>Forensic attack</A>
+		<B>ARP spoofing attack</B>
+		<C>Social engineering attack</C>
+		<D>Scanning attack</D>
+		<explanation></explanation>
+	</question>
+	<question id=133 topic=2 answer=C>
+		<text>WPA2 uses AES for wireless data encryption at which of the following encryption levels?</text>
+		<A>64 bit and CCMP</A>
+		<B>128 bit and CRC</B>
+		<C>128 bit and CCMP</C>
+		<D>128 bit and TKIP</D>
+		<explanation></explanation>
+	</question>
+	<question id=138 topic=2 answer=B>
+		<text>Which type of scan is used on the eye to measure the layer of blood vessels?</text>
+		<A>Facial recognition scan</A>
+		<B>Retinal scan</B>
+		<C>Iris scan</C>
+		<D>Signature kinetics scan</D>
+		<explanation></explanation>
+	</question>
+	<question id=142 topic=2 answer=D>
+		<text>An attacker uses a communication channel within an operating system that is neither designed nor intended to transfer information. What is the name of the communications channel?</text>
+		<A>Classified</A>
+		<B>Overt</B>
+		<C>Encrypted</C>
+		<D>Covert</D>
+		<explanation></explanation>
+	</question>
+	<question id=147 topic=-2 answer=C>
+		<text>Which protocol and port number might be needed in order to send log messages to a log analysis tool that resides behind a firewall?</text>
+		<D>A. UDP 123 B. UDP 541 C. UDP 514 D. UDP 415</D>
+		<explanation></explanation>
+	</question>
+	<question id=148 topic=2 answer=A>
+		<text>During a wireless penetration test, a tester detects an access point using WPA2 encryption. Which of the following attacks should be used to obtain the key?</text>
+		<A>The tester must capture the WPA2 authentication handshake and then crack it.</A>
+		<B>The tester must use the tool inSSIDer to crack it using the ESSID of the network.</B>
+		<C>The tester cannot crack WPA2 because it is in full compliance with the IEEE 802.11i standard.</C>
+		<D>The tester must change the MAC address of the wireless network card and then use the AirTraf tool to obtain the key.</D>
+		<explanation></explanation>
+	</question>
+	<question id=149 topic=2 answer=D>
+		<text>What is the main disadvantage of the scripting languages as opposed to compiled programming languages?</text>
+		<A>Scripting languages are hard to learn.</A>
+		<B>Scripting languages are not object-oriented.</B>
+		<C>Scripting languages cannot be used to create graphical user interfaces.</C>
+		<D>Scripting languages are slower because they require an interpreter to run the code.</D>
+		<explanation></explanation>
+	</question>
+	<question id=152 topic=2 answer=B>
+		<text>A hacker, who posed as a heating and air conditioning specialist, was able to install a sniffer program in a switched environment network. Which attack could the hacker use to sniff all of the packets in the network?</text>
+		<A>Fraggle</A>
+		<B>MAC Flood</B>
+		<C>Smurf</C>
+		<D>Tear Drop</D>
+		<explanation></explanation>
+	</question>
+	<question id=153 topic=2 answer=B>
+		<text>Which of the following can the administrator do to verify that a tape backup can be recovered in its entirety?</text>
+		<A>Restore a random file.</A>
+		<B>Perform a full restore.</B>
+		<C>Read the first 512 bytes of the tape.</C>
+		<D>Read the last 512 bytes of the tape.</D>
+		<explanation>A full restore is required.</explanation>
+	</question>
+	<question id=157 topic=2 answer=C>
+		<text>While conducting a penetration test, the tester determines that there is a firewall between the tester's machine and the target machine. The firewall is only monitoring TCP handshaking of packets at the session layer of the OSI model. Which type of firewall is the tester trying to traverse?</text>
+		<A>Packet filtering firewall</A>
+		<B>Application-level firewall</B>
+		<C>Circuit-level gateway firewall</C>
+		<D>Stateful multilayer inspection firewall</D>
+		<explanation></explanation>
+	</question>
+	<question id=160 topic=2 answer=B>
+		<text>A security consultant is trying to bid on a large contract that involves penetration testing and reporting. The company accepting bids wants proof of work so the consultant prints out several audits that have been performed. Which of the following is likely to occur as a result?</text>
+		<A>The consultant will ask for money on the bid because of great work.</A>
+		<B>The consultant may expose vulnerabilities of other companies.</B>
+		<C>The company accepting bids will want the same type of format of testing.</C>
+		<D>The company accepting bids will hire the consultant because of the great work performed.</D>
+		<explanation></explanation>
+	</question>
+	<question id=161 topic=2 answer=B>
+		<text>What is the outcome of the comm”nc -l -p 2222 | nc 10.1.0.43 1234"?</text>
+		<A>Netcat will listen on the 10.1.0.43 interface for 1234 seconds on port 2222.</A>
+		<B>Netcat will listen on port 2222 and output anything received to a remote connection on 10.1.0.43 port 1234.</B>
+		<C>Netcat will listen for a connection from 10.1.0.43 on port 1234 and output anything received to port 2222.</C>
+		<D>Netcat will listen on port 2222 and then output anything received to local interface 10.1.0.43.</D>
+		<explanation></explanation>
+	</question>
+	<question id=164 topic=2 answer=B>
+		<text>Which results will be returned with the following Google search query? site:target.com -site:Marketing.target.com accounting</text>
+		<A>Results matching all words in the query</A>
+		<B>Results matching “accounting” in domain target.com but not on the site Marketing.target.com</B>
+		<C>Results from matches on the site marketing.target.com that are in the domain target.com but do not include the word accounting</C>
+		<D>Results for matches on target.com and Marketing.target.com that include the word “accounting”</D>
+		<explanation></explanation>
+	</question>
+	<question id=168 topic=2 answer=A>
+		<text>A Network Administrator was recently promoted to Chief Security Officer at a local university. One of employee's new responsibilities is to manage the implementation of an RFID card access system to a new server room on campus. The server room will house student enrollment information that is securely backed up to an off-site location. During a meeting with an outside consultant, the Chief Security Officer explains that he is concerned that the existing security controls have not been designed properly. Currently, the Network Administrator is responsible for approving and issuing RFID card access to the server room, as well as reviewing the electronic access logs on a weekly basis. Which of the following is an issue with the situation?</text>
+		<A>Segregation of duties</A>
+		<B>Undue influence</B>
+		<C>Lack of experience</C>
+		<D>Inadequate disaster recovery plan</D>
+		<explanation></explanation>
+	</question>
+	<question id=171 topic=2 answer=B>
+		<text>Which type of intrusion detection system can monitor and alert on attacks, but cannot stop them?</text>
+		<A>Detective</A>
+		<B>Passive</B>
+		<C>Intuitive</C>
+		<D>Reactive</D>
+		<explanation></explanation>
+	</question>
+	<question id=176 topic=2 answer=D>
+		<text>Which of the following techniques does a vulnerability scanner use in order to detect a vulnerability on a target service?</text>
+		<A>Port scanning</A>
+		<B>Banner grabbing</B>
+		<C>Injecting arbitrary data</C>
+		<D>Analyzing service response</D>
+		<explanation></explanation>
+	</question>
+	<question id=179 topic=2 answer=>
+		<text>A consultant is hired to do physical penetration testing at a large financial company. In the first day of his assessment, the consultant goes to the company`s building dressed like an electrician and waits in the lobby for an employee to pass through the main access gate, then the consultant follows the employee behind to get into the restricted area. Which type of attack did the consultant perform?</text>
+		<A>Man trap</A>
+		<B>Tailgating</B>
+		<C>Shoulder surfing</C>
+		<D>Social engineering</D>
+		<explanation></explanation>
+	</question>
+	<question id=180 topic=2 answer=B>
+		<text>When an alert rule is matched in a network-based IDS like snort, the IDS does which of the following?</text>
+		<A>Drops the packet and moves on to the next one</A>
+		<B>Continues to evaluate the packet until all rules are checked</B>
+		<C>Stops checking rules, sends an alert, and lets the packet continue</C>
+		<D>Blocks the connection with the source IP address in the packet</D>
+		<explanation></explanation>
+	</question>
+	<question id=181 topic=2 answer=C>
+		<text>A hacker is attempting to use nslookup to query Domain Name Service (DNS). The hacker uses the nslookup interactive mode for the search. Which command should the hacker type into the command shell to request the appropriate records?</text>
+		<A>Locate type=ns</A>
+		<B>Request type=ns</B>
+		<C>Set type=ns</C>
+		<D>Transfer type=ns</D>
+		<explanation></explanation>
+	</question>
+	<question id=184 topic=2 answer=A>
+		<text>Which of the following is used to indicate a single-line comment in structured query language (SQL)?</text>
+		<A>--</A>
+		<B>||</B>
+		<C>%%</C>
+		<D>''</D>
+		<explanation></explanation>
+	</question>
+	<question id=188 topic=2 answer=A>
+		<text>When using Wireshark to acquire packet capture on a network, which device would enable the capture of all traffic on the wire?</text>
+		<A>Network tap</A>
+		<B>Layer 3 switch</B>
+		<C>Network bridge</C>
+		<D>Application firewall</D>
+		<explanation></explanation>
+	</question>
+	<question id=192 topic=2 answer=A>
+		<text>What technique is used to perform a Connection Stream Parameter Pollution (CSPP) attack?</text>
+		<A>Injecting parameters into a connection string using semicolons as a separator</A>
+		<B>Inserting malicious Javascript code into input parameters</B>
+		<C>Setting a user's session identifier (SID) to an explicit known value</C>
+		<D>Adding multiple parameters with the same name in HTTP requests</D>
+		<explanation></explanation>
+	</question>
+	<question id=195 topic=2 answer=A>
+		<text>A hacker is attempting to see which ports have been left open on a network. Which NMAP switch would the hacker use?</text>
+		<A>-sO</A>
+		<B>-sP</B>
+		<C>-sS</C>
+		<D>-sU</D>
+		<explanation></explanation>
+	</question>
+	<question id=198 topic=2 answer=B>
+		<text>Which NMAP command combination would let a tester scan every TCP port from a class C network that is blocking ICMP with fingerprinting and service detection?</text>
+		<A>NMAP -PN -A -O -sS 192.168.2.0/24</A>
+		<B>NMAP -P0 -A -O -p1-65535 192.168.0/24</B>
+		<C>NMAP -P0 -A -sT -p0-65535 192.168.0/16</C>
+		<D>NMAP -PN -O -sS -p 1-1024 192.168.0/8</D>
+		<explanation></explanation>
+	</question>
+	<question id=200 topic=-2 answer=B>
+		<text>Which of the following is an example of an asymmetric encryption implementation?</text>
+		<A>SHA1</A>
+		<B>PGP</B>
+		<C>3DES</C>
+		<D>MD5</D>
+		<explanation></explanation>
+	</question>
+	<question id=205 topic=2 answer=C>
+		<text>A company is using Windows Server 2003 for its Active Directory (AD). What is the most efficient way to crack the passwords for the AD users?</text>
+		<A>Perform a dictionary attack.</A>
+		<B>Perform a brute force attack.</B>
+		<C>Perform an attack with a rainbow table.</C>
+		<D>Perform a hybrid attack.</D>
+		<explanation></explanation>
+	</question>
+	<question id=208 topic=2 answer=D>
+		<text>A penetration tester was hired to perform a penetration test for a bank. The tester began searching for IP ranges owned by the bank, performing lookups on the bank's DNS servers, reading news articles online about the bank, watching what times the bank employees come into work and leave from work, searching the bank's job postings (paying special attention to IT related jobs), and visiting the local dumpster for the bank's corporate office. What phase of the penetration test is the tester currently in?</text>
+		<A>Information reporting</A>
+		<B>Vulnerability assessment</B>
+		<C>Active information gathering</C>
+		<D>Passive information gathering</D>
+		<explanation></explanation>
+	</question>
+	<question id=212 topic=2 answer=A>
+		<text>Which security control role does encryption meet?</text>
+		<A>Preventative</A>
+		<B>Detective</B>
+		<C>Offensive</C>
+		<D>Defensive</D>
+		<explanation></explanation>
+	</question>
+	<question id=216 topic=2 answer=C>
+		<text>In order to show improvement of security over time, what must be developed?</text>
+		<A>Reports</A>
+		<B>Testing tools</B>
+		<C>Metrics</C>
+		<D>Taxonomy of vulnerabilities</D>
+		<explanation>Today, management demands metrics to get a clearer view of security. Metrics that measure participation, effectiveness, and window of exposure, however, offer information the organization can use to make plans and improve programs. References: http://www.infoworld.com/article/2974642/security/4-security-metrics-that-matter.html</explanation>
+	</question>
+	<question id=220 topic=2 answer=A>
+		<text>How is sniffing broadly categorized?</text>
+		<A>Active and passive</A>
+		<B>Broadcast and unicast</B>
+		<C>Unmanaged and managed</C>
+		<explanation></explanation>
+	</question>
+	<question id=224 topic=2 answer=C>
+		<text>Fingerprinting VPN firewalls is possible with which of the following tools?</text>
+		<A>Angry IP</A>
+		<B>Nikto</B>
+		<C>Ike-scan</C>
+		<D>Arp-scan</D>
+		<explanation></explanation>
+	</question>
+	<question id=229 topic=2 answer=B>
+		<text>Which tool can be used to silently copy files from USB devices?</text>
+		<A>USB Grabber</A>
+		<B>USB Dumper</B>
+		<C>USB Sniffer</C>
+		<D>USB Snoopy</D>
+		<explanation></explanation>
+	</question>
+	<question id=232 topic=2 answer=C>
+		<text>Which of the following is a strong post designed to stop a car?</text>
+		<A>Gate</A>
+		<B>Fence</B>
+		<C>Bollard</C>
+		<D>Reinforced rebar</D>
+		<explanation></explanation>
+	</question>
+	<question id=234 topic=2 answer=D>
+		<text>An NMAP scan of a server shows port 25 is open. What risk could this pose?</text>
+		<A>Open printer sharing</A>
+		<B>Web portal data leak</B>
+		<C>Clear text authentication</C>
+		<D>Active mail relay</D>
+		<explanation></explanation>
+	</question>
+	<question id=236 topic=2 answer=B>
+		<text>To send a PGP encrypted message, which piece of information from the recipient must the sender have before encrypting the message?</text>
+		<A>Recipient's private key</A>
+		<B>Recipient's public key</B>
+		<C>Master encryption key</C>
+		<D>Sender's public key</D>
+		<explanation></explanation>
+	</question>
+	<question id=240 topic=2 answer=D>
+		<text>Which of the following conditions must be given to allow a tester to exploit a Cross-Site Request Forgery (CSRF) vulnerable web application?</text>
+		<A>The victim user must open the malicious link with an Internet Explorer prior to version 8.</A>
+		<B>The session cookies generated by the application do not have the HttpOnly flag set.</B>
+		<C>The victim user must open the malicious link with a Firefox prior to version 3.</C>
+		<D>The web application should not use random tokens.</D>
+		<explanation></explanation>
+	</question>
+	<question id=245 topic=2 answer=B>
+		<text>A hacker is attempting to see which IP addresses are currently active on a network. Which NMAP switch would the hacker use?</text>
+		<A>-sO</A>
+		<C>-sS</C>
+		<D>-sU</D>
+		<explanation></explanation>
+	</question>
+	<question id=246 topic=2 answer=B>
+		<text>A penetration tester is attempting to scan an internal corporate network from the internet without alerting the border sensor. Which is the most efficient technique should the tester consider using?</text>
+		<A>Spoofing an IP address</A>
+		<B>Tunneling scan over SSH</B>
+		<C>Tunneling over high port numbers</C>
+		<D>Scanning using fragmented IP packets</D>
+		<explanation></explanation>
+	</question>
+	<question id=248 topic=2 answer=C>
+		<text>During a penetration test, the tester conducts an ACK scan using NMAP against the external interface of the DMZ firewall. NMAP reports that port 80 is unfiltered. Based on this response, which type of packet inspection is the firewall conducting?</text>
+		<A>Host</A>
+		<B>Stateful</B>
+		<C>Stateless</C>
+		<D>Application</D>
+		<explanation></explanation>
+	</question>
+	<question id=253 topic=2 answer=A>
+		<text>An NMAP scan of a server shows port 69 is open. What risk could this pose?</text>
+		<A>Unauthenticated access</A>
+		<B>Weak SSL version</B>
+		<C>Cleartext login</C>
+		<D>Web portal data leak</D>
+		<explanation></explanation>
+	</question>
+	<question id=256 topic=2 answer=D>
+		<text>Which command line switch would be used in NMAP to perform operating system detection?</text>
+		<A>-OS</A>
+		<B>-sO</B>
+		<C>-sP</C>
+		<D>-O</D>
+		<explanation></explanation>
+	</question>
+	<question id=260 topic=2 answer=D>
+		<text>What is the main difference between a “Normal” SQL Injection and a “Blind” SQL Injection vulnerability?</text>
+		<A>The request to the web server is not visible to the administrator of the vulnerable application.</A>
+		<B>The attack is called “Blind” because, although the application properly filters user input, it is still vulnerable to code injection.</B>
+		<C>The successful attack does not show an error message to the administrator of the affected application.</C>
+		<D>The vulnerable application does not display errors with information about the injection results to the attacker.</D>
+		<explanation></explanation>
+	</question>
+	<question id=265 topic=2 answer=B>
+		<text>Which of the following programming languages is most vulnerable to buffer overflow attacks?</text>
+		<A>Perl</A>
+		<B>C++</B>
+		<C>Python</C>
+		<D>Java</D>
+		<explanation></explanation>
+	</question>
+	<question id=266 topic=2 answer=C>
+		<text>A hacker searches in Google for filetype:pcf to find Cisco VPN config files. Those files may contain connectivity passwords that can be decoded with which of the following?</text>
+		<A>Cupp</A>
+		<B>Nessus</B>
+		<C>Cain and Abel</C>
+		<D>John The Ripper Pro</D>
+		<explanation></explanation>
+	</question>
+	<question id=270 topic=2 answer=A>
+		<text>Which tool is used to automate SQL injections and exploit a database by forcing a given web application to connect to another database controlled by a hacker?</text>
+		<A>DataThief</A>
+		<B>NetCat</B>
+		<C>Cain and Abel</C>
+		<D>SQLInjector</D>
+		<explanation></explanation>
+	</question>
+	<question id=271 topic=2 answer=D>
+		<text>A company has hired a security administrator to maintain and administer Linux and Windows-based systems. Written in the nightly report file is the following: Firewall log files are at the expected value of 4 MB. The current time is 12am. Exactly two hours later the size has decreased considerably. Another hour goes by and the log files have shrunk in size again. Which of the following actions should the security administrator take?</text>
+		<A>Log the event as suspicious activity and report this behavior to the incident response team immediately.</A>
+		<B>Log the event as suspicious activity, call a manager, and report this as soon as possible.</B>
+		<C>Run an anti-virus scan because it is likely the system is infected by malware.</C>
+		<D>Log the event as suspicious activity, continue to investigate, and act according to the site's security policy.</D>
+		<explanation></explanation>
+	</question>
+	<question id=275 topic=2 answer=A>
+		<text>ICMP ping and ping sweeps are used to check for active systems and to check</text>
+		<A>if ICMP ping traverses a firewall.</A>
+		<B>the route that the ICMP ping took.</B>
+		<C>the location of the switchport in relation to the ICMP ping.</C>
+		<D>the number of hops an ICMP ping takes to reach a destination.</D>
+		<explanation></explanation>
+	</question>
+	<question id=279 topic=2 answer=C>
+		<text>One way to defeat a multi-level security solution is to leak data via</text>
+		<A>a bypass regulator.</A>
+		<B>steganography.</B>
+		<C>a covert channel.</C>
+		<D>asymmetric routing.</D>
+		<explanation></explanation>
+	</question>
+	<question id=283 topic=2 answer=D>
+		<text>What is the correct PCAP filter to capture all TCP traffic going to or from host 192.168.0.125 on port 25?</text>
+		<A>tcp.src == 25 and ip.host == 192.168.0.125 B. host 192.168.0.125:25</A>
+		<C>port 25 and host 192.168.0.125</C>
+		<D>tcp.port == 25 and ip.host == 192.168.0.125</D>
+		<explanation></explanation>
+	</question>
+	<question id=285 topic=2 answer=>
+		<text>Which of the following items of a computer system will an anti-virus program scan for viruses?</text>
+		<A>Boot Sector</A>
+		<B>Deleted Files</B>
+		<C>Windows Process List</C>
+		<D>Password Protected Files</D>
+		<explanation></explanation>
+	</question>
+	<question id=288 topic=-2 answer=C>
+		<text>What is the broadcast address for the subnet 190.86.168.0/22?</text>
+		<D>A. 190.86.168.255 B. 190.86.255.255 C. 190.86.171.255 D. 190.86.169.255</D>
+		<explanation></explanation>
+	</question>
+	<question id=293 topic=2 answer=B>
+		<text>A bank stores and processes sensitive privacy information related to home loans. However, auditing has never been enabled on the system. What is the first step that the bank should take before enabling the audit feature?</text>
+		<A>Perform a vulnerability scan of the system.</A>
+		<B>Determine the impact of enabling the audit feature.</B>
+		<C>Perform a cost/benefit analysis of the audit feature.</C>
+		<D>Allocate funds for staffing of audit log review.</D>
+		<explanation></explanation>
+	</question>
+	<question id=294 topic=2 answer=C>
+		<text>Which of the following programs is usually targeted at Microsoft Office products?</text>
+		<A>Polymorphic virus</A>
+		<B>Multipart virus</B>
+		<C>Macro virus</C>
+		<D>Stealth virus</D>
+		<explanation>A macro virus is a virus that is written in a macro language: a programming language which is embedded inside a software application (e.g., word processors and spreadsheet applications). Some applications, such as Microsoft Office, allow macro programs to be embedded in documents such that the macros are run automatically when the document is opened, and this provides a distinct mechanism by which malicious computer instructions can spread. References: https://en.wikipedia.org/wiki/Macro_virus</explanation>
+	</question>
+	<question id=299 topic=2 answer=A>
+		<text>Which of the following is a client-server tool utilized to evade firewall inspection?</text>
+		<A>tcp-over-dns</A>
+		<B>kismet</B>
+		<C>nikto</C>
+		<D>hping</D>
+		<explanation></explanation>
+	</question>
+	<question id=302 topic=2 answer=D>
+		<text>Which of the following viruses tries to hide from anti-virus programs by actively altering and corrupting the chosen service call interruptions when they are being run?</text>
+		<A>Cavity virus</A>
+		<B>Polymorphic virus</B>
+		<C>Tunneling virus</C>
+		<D>Stealth virus</D>
+		<explanation></explanation>
+	</question>
+	<question id=303 topic=2 answer=Answer:>
+		<text>A large company intends to use Blackberry for corporate mobile phones and a security analyst is assigned to evaluate the possible threats. The analyst will use the Blackjacking attack method to demonstrate how an attacker could circumvent perimeter defenses and gain access to the corporate network. What tool should the analyst use to perform a Blackjacking attack?</text>
+		<A>Paros Proxy</A>
+		<B>BBProxy</B>
+		<C>BBCrack</C>
+		<D>Blooover</D>
+		<explanation>Blackberry users warned of hacking tool threat. Users have been warned that the security of Blackberry wireless e-mail devices is at risk due to the availability this week of a new hacking tool. Secure Computing Corporation said businesses that have installed Blackberry servers behind their gateway security devices could be vulnerable to a hacking attack from a tool call BBProxy. References: http://www.computerweekly.com/news/2240062112/Technology-news-in-brief</explanation>
+	</question>
+	<question id=306 topic=2 answer=A>
+		<text>Which system consists of a publicly available set of databases that contain domain name registration contact information?</text>
+		<A>WHOIS</A>
+		<B>IANA</B>
+		<C>CAPTCHA</C>
+		<D>IETF</D>
+		<explanation></explanation>
+	</question>
+	<question id=311 topic=2 answer=D>
+		<text>Which of the following settings enables Nessus to detect when it is sending too many packets and the network pipe is approaching capacity?</text>
+		<A>Netstat WMI Scan</A>
+		<B>Silent Dependencies</B>
+		<C>Consider unscanned ports as closed</C>
+		<D>Reduce parallel connections on congestion</D>
+		<explanation></explanation>
+	</question>
+	<question id=315 topic=2 answer=C>
+		<text>A computer science student needs to fill some information into a secured Adobe PDF job application that was received from a prospective employer. Instead of requesting a new document that allowed the forms to be completed, the student decides to write a script that pulls passwords from a list of commonly used passwords to try against the secured PDF until the correct password is found or the list is exhausted. Which cryptography attack is the student attempting?</text>
+		<A>Man-in-the-middle attack</A>
+		<B>Brute-force attack</B>
+		<C>Dictionary attack</C>
+		<D>Session hijacking</D>
+		<explanation></explanation>
+	</question>
+	<question id=317 topic=2 answer=C>
+		<text>While performing data validation of web content, a security technician is required to restrict malicious input. Which of the following processes is an efficient way of restricting malicious input?</text>
+		<A>Validate web content input for query strings.</A>
+		<B>Validate web content input with scanning tools.</B>
+		<C>Validate web content input for type, length, and range.</C>
+		<D>Validate web content input for extraneous queries.</D>
+		<explanation></explanation>
+	</question>
+	<question id=321 topic=2 answer=A>
+		<text>What is the main advantage that a network-based IDS/IPS system has over a host-based solution?</text>
+		<A>They do not use host system resources.</A>
+		<B>They are placed at the boundary, allowing them to inspect all traffic.</B>
+		<C>They are easier to install and configure.</C>
+		<D>They will not interfere with user interfaces.</D>
+		<explanation></explanation>
+	</question>
+	<question id=322 topic=2 answer=>
+		<text>Which of the following identifies the three modes in which Snort can be configured to run?</text>
+		<A>Sniffer, Packet Logger, and Network Intrusion Detection System</A>
+		<B>Sniffer, Network Intrusion Detection System, and Host Intrusion Detection System</B>
+		<C>Sniffer, Host Intrusion Prevention System, and Network Intrusion Prevention System</C>
+		<D>Sniffer, Packet Logger, and Host Intrusion Prevention System</D>
+		<explanation></explanation>
+	</question>
+	<question id=326 topic=3 answer=A>
+		<text>Which vital role does the U.S. Computer Security Incident Response Team (CSIRT) provide?</text>
+		<A>Incident response services to any user, company, government agency, or organization in partnership with the Department of Homeland Security</A>
+		<B>Maintenance of the nation’s Internet infrastructure, builds out new Internet infrastructure, and decommissions old Internet infrastructure</B>
+		<C>Registration of critical penetration testing for the Department of Homeland Security and public and private sectors</C>
+		<D>Measurement of key vulnerability assessments on behalf of the Department of Defense (DOD) and State Department, as well as private sectors</D>
+		<explanation></explanation>
+	</question>
+	<question id=329 topic=3 answer=A>
+		<text>A certified ethical hacker (CEH) is approached by a friend who believes her husband is cheating. She offers to pay to break into her husband's email account in order to find proof so she can take him to court. What is the ethical response?</text>
+		<A>Say no; the friend is not the owner of the account.</A>
+		<B>Say yes; the friend needs help to gather evidence.</B>
+		<C>Say yes; do the job for free.</C>
+		<D>Say no; make sure that the friend knows the risk she’s asking the CEH to take.</D>
+		<explanation></explanation>
+	</question>
+	<question id=330 topic=3 answer=D>
+		<text>If an e-commerce site was put into a live environment and the programmers failed to remove the secret entry point that was used during the application development, what is this secret entry point known as?</text>
+		<A>SDLC process</A>
+		<B>Honey pot</B>
+		<C>SQL injection</C>
+		<D>Trap door</D>
+		<explanation></explanation>
+	</question>
+	<question id=335 topic=3 answer=D>
+		<text>The fundamental difference between symmetric and asymmetric key cryptographic systems is that symmetric key cryptography uses which of the following?</text>
+		<A>Multiple keys for non-repudiation of bulk data</A>
+		<B>Different keys on both ends of the transport medium</B>
+		<C>Bulk encryption for data transmission over fiber</C>
+		<D>The same key on each end of the transmission medium</D>
+		<explanation></explanation>
+	</question>
+	<question id=339 topic=3 answer=B>
+		<text>The Open Web Application Security Project (OWASP) testing methodology addresses the need to secure web applications by providing which one of the following services?</text>
+		<A>An extensible security framework named COBIT</A>
+		<B>A list of flaws and how to fix them</B>
+		<C>Web application patches</C>
+		<D>A security certification for hardened web applications</D>
+		<explanation></explanation>
+	</question>
+	<question id=341 topic=3 answer=C>
+		<text>Which element of Public Key Infrastructure (PKI) verifies the applicant?</text>
+		<A>Certificate authority</A>
+		<B>Validation authority</B>
+		<C>Registration authority</C>
+		<D>Verification authority</D>
+		<explanation></explanation>
+	</question>
+	<question id=345 topic=3 answer=D>
+		<text>When comparing the testing methodologies of Open Web Application Security Project (OWASP) and Open Source Security Testing Methodology Manual (OSSTMM) the main difference is</text>
+		<A>OWASP is for web applications and OSSTMM does not include web applications.</A>
+		<B>OSSTMM is gray box testing and OWASP is black box testing.</B>
+		<C>OWASP addresses controls and OSSTMM does not.</C>
+		<D>OSSTMM addresses controls and OWASP does not.</D>
+		<explanation></explanation>
+	</question>
+	<question id=348 topic=3 answer=C>
+		<text>To reduce the attack surface of a system, administrators should perform which of the following processes to remove unnecessary software, services, and insecure configuration settings?</text>
+		<A>Harvesting</A>
+		<B>Windowing</B>
+		<C>Hardening</C>
+		<D>Stealthing</D>
+		<explanation></explanation>
+	</question>
+	<question id=353 topic=3 answer=D>
+		<text>Some passwords are stored using specialized encryption algorithms known as hashes. Why is this an appropriate method?</text>
+		<A>It is impossible to crack hashed user passwords unless the key used to encrypt them is obtained.</A>
+		<B>If a user forgets the password, it can be easily retrieved using the hash key stored by administrators.</B>
+		<C>Hashing is faster compared to more traditional encryption algorithms.</C>
+		<D>Passwords stored using hashes are non-reversible, making finding the password much more difficult.</D>
+		<explanation></explanation>
+	</question>
+	<question id=358 topic=3 answer=D>
+		<text>For messages sent through an insecure channel, a properly implemented digital signature gives the receiver reason to believe the message was sent by the claimed sender. While using a digital signature, the message digest is encrypted with which key?</text>
+		<A>Sender's public key</A>
+		<B>Receiver's private key</B>
+		<C>Receiver's public key</C>
+		<D>Sender's private key</D>
+		<explanation></explanation>
+	</question>
+	<question id=359 topic=-3 answer=B>
+		<text>Which of the following algorithms provides better protection against brute force attacks by using a 160-bit message digest?</text>
+		<D>A. MD5 B. SHA-1 C. RC4 D. MD4</D>
+		<explanation></explanation>
+	</question>
+	<question id=364 topic=3 answer=A>
+		<text>Which security strategy requires using several, varying methods to protect IT systems against attacks?</text>
+		<A>Defense in depth</A>
+		<B>Three-way handshake</B>
+		<C>Covert channels</C>
+		<D>Exponential backoff algorithm</D>
+		<explanation></explanation>
+	</question>
+	<question id=365 topic=3 answer=B>
+		<text>Which of the following is a characteristic of Public Key Infrastructure (PKI)?</text>
+		<A>Public-key cryptosystems are faster than symmetric-key cryptosystems.</A>
+		<B>Public-key cryptosystems distribute public-keys within digital signatures.</B>
+		<C>Public-key cryptosystems do not require a secure key distribution channel.</C>
+		<D>Public-key cryptosystems do not provide technical non-repudiation via digital signatures.</D>
+		<explanation></explanation>
+	</question>
+	<question id=367 topic=-3 answer=D>
+		<text>Which of the following descriptions is true about a static NAT?</text>
+		<A>A static NAT uses a many-to-many mapping.</A>
+		<B>A static NAT uses a one-to-many mapping.</B>
+		<C>A static NAT uses a many-to-one mapping.</C>
+		<D>A static NAT uses a one-to-one mapping.</D>
+		<explanation></explanation>
+	</question>
+	<question id=371 topic=-3 answer=B>
+		<text>A consultant has been hired by the V.P. of a large financial organization to assess the company's security posture. During the security testing, the consultant comes across child pornography on the V.P.'s computer. What is the consultant's obligation to the financial organization?</text>
+		<A>Say nothing and continue with the security testing.</A>
+		<B>Stop work immediately and contact the authorities.</B>
+		<C>Delete the pornography, say nothing, and continue security testing.</C>
+		<D>Bring the discovery to the financial organization's human resource department.</D>
+		<explanation></explanation>
+	</question>
+	<question id=373 topic=-3 answer=A>
+		<text>Which of the following levels of algorithms does Public Key Infrastructure (PKI) use?</text>
+		<A>RSA 1024 bit strength</A>
+		<B>AES 1024 bit strength</B>
+		<C>RSA 512 bit strength</C>
+		<D>AES 512 bit strength</D>
+		<explanation></explanation>
+	</question>
+	<question id=377 topic=-3 answer=D>
+		<text>An attacker has captured a target file that is encrypted with public key cryptography. Which of the attacks below is likely to be used to crack the target file?</text>
+		<A>Timing attack</A>
+		<B>Replay attack</B>
+		<C>Memory trade-off attack</C>
+		<D>Chosen plain-text attack</D>
+		<explanation></explanation>
+	</question>
+	<question id=381 topic=-3 answer=D>
+		<text>While testing the company's web applications, a tester attempts to insert the following test script into the search area on the company's web site: <script>alert(" Testing Testing Testing ")</script> Afterwards, when the tester presses the search button, a pop-up box appears on the screen with the text: "Testing Testing Testing". Which vulnerability has been detected in the web application?</text>
+		<A>Buffer overflow</A>
+		<B>Cross-site request forgery</B>
+		<C>Distributed denial of service</C>
+		<D>Cross-site scripting</D>
+		<explanation></explanation>
+	</question>
+	<question id=383 topic=-3 answer=A>
+		<text>A technician is resolving an issue where a computer is unable to connect to the Internet using a wireless access point. The computer is able to transfer files locally to other machines, but cannot successfully reach the Internet. When the technician examines the IP address and default gateway they are both on the 192.168.1.0/24. Which of the following has occurred?</text>
+		<A>The gateway is not routing to a public IP address.</A>
+		<B>The computer is using an invalid IP address.</B>
+		<C>The gateway and the computer are not on the same network.</C>
+		<D>The computer is not using a private IP address.</D>
+		<explanation></explanation>
+	</question>
+	<question id=385 topic=-3 answer=A>
+		<text>Which NMAP feature can a tester implement or adjust while scanning for open ports to avoid detection by the network’s IDS?</text>
+		<A>Timing options to slow the speed that the port scan is conducted</A>
+		<B>Fingerprinting to identify which operating systems are running on the network</B>
+		<C>ICMP ping sweep to determine which hosts on the network are not available</C>
+		<D>Traceroute to control the path of the packets sent during the scan</D>
+		<explanation></explanation>
+	</question>
+	<question id=388 topic=3 answer=A>
+		<text>Employees in a company are no longer able to access Internet web sites on their computers. The network administrator is able to successfully ping IP address of web servers on the Internet and is able to open web sites by using an IP address in place of the URL. The administrator runs the nslookup command for www.eccouncil.org and receives an error message stating there is no response from the server. What should the administrator do next?</text>
+		<A>Configure the firewall to allow traffic on TCP ports 53 and UDP port 53.</A>
+		<B>Configure the firewall to allow traffic on TCP ports 80 and UDP port 443.</B>
+		<C>Configure the firewall to allow traffic on TCP port 53.</C>
+		<D>Configure the firewall to allow traffic on TCP port 8080.</D>
+		<explanation></explanation>
+	</question>
+	<question id=392 topic=3 answer=A>
+		<text>Which of the following network attacks takes advantage of weaknesses in the fragment reassembly functionality of the TCP/IP protocol stack?</text>
+		<A>Teardrop</A>
+		<B>SYN flood</B>
+		<C>Smurf attack</C>
+		<D>Ping of death</D>
+		<explanation></explanation>
+	</question>
+	<question id=396 topic=3 answer=D>
+		<text>How do employers protect assets with security policies pertaining to employee surveillance activities?</text>
+		<A>Employers promote monitoring activities of employees as long as the employees demonstrate trustworthiness.</A>
+		<B>Employers use informal verbal communication channels to explain employee monitoring activities to employees.</B>
+		<C>Employers use network surveillance to monitor employee email traffic, network access, and to record employee keystrokes.</C>
+		<D>Employers provide employees written statements that clearly discuss the boundaries of monitoring activities and consequences.</D>
+		<explanation></explanation>
+	</question>
+	<question id=400 topic=3 answer=B>
+		<text>Company A and Company B have just merged and each has its own Public Key Infrastructure (PKI). What must the Certificate Authorities (CAs) establish so that the private PKIs for Company A and Company B trust one another and each private PKI can validate digital certificates from the other company?</text>
+		<A>Poly key exchange</A>
+		<B>Cross certification</B>
+		<C>Poly key reference</C>
+		<D>Cross-site exchange</D>
+		<explanation></explanation>
+	</question>
+	<question id=405 topic=3 answer=D>
+		<text>An attacker sniffs encrypted traffic from the network and is subsequently able to decrypt it. The attacker can now use which cryptanalytic technique to attempt to discover the encryption key?</text>
+		<A>Birthday attack</A>
+		<B>Plaintext attack</B>
+		<C>Meet in the middle attack</C>
+		<D>Chosen ciphertext attack</D>
+		<explanation></explanation>
+	</question>
+	<question id=407 topic=3 answer=A>
+		<text>Which United States legislation mandates that the Chief Executive Officer (CEO) and the Chief Financial Officer (CFO) must sign statements verifying the completeness and accuracy of financial reports?</text>
+		<A>Sarbanes-Oxley Act (SOX)</A>
+		<B>Gramm-Leach-Bliley Act (GLBA)</B>
+		<C>Fair and Accurate Credit Transactions Act (FACTA)</C>
+		<D>Federal Information Security Management Act (FISMA)</D>
+		<explanation></explanation>
+	</question>
+	<question id=410 topic=3 answer=D>
+		<text>What is the primary drawback to using advanced encryption standard (AES) algorithm with a 256 bit key to share sensitive data?</text>
+		<A>Due to the key size, the time it will take to encrypt and decrypt the message hinders efficient communication.</A>
+		<B>To get messaging programs to function with this algorithm requires complex configurations.</B>
+		<C>It has been proven to be a weak cipher; therefore, should not be trusted to protect sensitive data.</C>
+		<D>It is a symmetric key algorithm, meaning each recipient must receive the key through a different channel than the message.</D>
+		<explanation></explanation>
+	</question>
+	<question id=412 topic=3 answer=B>
+		<text>Which type of security document is written with specific step-by-step details?</text>
+		<A>Process</A>
+		<B>Procedure</B>
+		<C>Policy</C>
+		<D>Paradigm</D>
+		<explanation></explanation>
+	</question>
+	<question id=416 topic=4 answer=A>
+		<text>Which of the following is the least-likely physical characteristic to be used in biometric control that supports a large company?</text>
+		<A>Height and Weight</A>
+		<B>Voice</B>
+		<C>Fingerprints</C>
+		<D>Iris patterns</D>
+		<explanation>There are two main types of biometric identifiers: Examples of physiological characteristics used for biometric authentication include fingerprints; DNA; face, hand, retina or ear features; and odor. Behavioral characteristics are related to the pattern of the behavior of a person, such as typing rhythm, gait, gestures and voice. References: http://searchsecurity.techtarget.com/definition/biometrics</explanation>
+	</question>
+	<question id=420 topic=4 answer=A>
+		<text>Perspective clients want to see sample reports from previous penetration tests. What should you do next?</text>
+		<A>Decline but, provide references.</A>
+		<B>Share full reports, not redacted.</B>
+		<C>Share full reports with redactions.</C>
+		<D>Share reports, after NDA is signed.</D>
+		<explanation>Penetration tests data should not be disclosed to third parties.</explanation>
+	</question>
+	<question id=422 topic=-4 answer=A>
+		<text>You have successfully gained access to your client's internal network and successfully comprised a Linux server which is part of the internal IP network. You want to know which Microsoft Windows workstations have file sharing enabled. Which port would you see listening on these Windows machines in the network?</text>
+		<A>445</A>
+		<B>3389</B>
+		<C>161</C>
+		<D>1433</D>
+		<explanation>The following ports are associated with file sharing and server message block (SMB) communications: References: https://support.microsoft.com/en-us/kb/298804</explanation>
+	</question>
+	<question id=426 topic=4 answer=A>
+		<text>You have successfully gained access to a linux server and would like to ensure that the succeeding outgoing traffic from this server will not be caught by a Network Based Intrusion Detection Systems (NIDS). What is the best way to evade the NIDS?</text>
+		<A>Encryption</A>
+		<C>Alternate Data Streams</C>
+		<D>Out of band signalling</D>
+		<explanation>When the NIDS encounters encrypted traffic, the only analysis it can perform is packet level analysis, since the application layer contents are inaccessible. Given that exploits against today's networks are primarily targeted against network services (application layer entities), packet level analysis ends up doing very little to protect our core business assets. References: http://www.techrepublic.com/article/avoid-these-five-common-ids-implementation-errors/</explanation>
+	</question>
+	<question id=427 topic=4 answer=A>
+		<text>The purpose of a _____ is to deny network access to local area networks and other information assets by unauthorized wireless devices.</text>
+		<A>Wireless Intrusion Prevention System</A>
+		<B>Wireless Access Point</B>
+		<C>Wireless Access Control List</C>
+		<D>Wireless Analyzer</D>
+		<explanation>A wireless intrusion prevention system (WIPS) is a network device that monitors the radio spectrum for the presence of unauthorized access points (intrusion detection), and can automatically take countermeasures (intrusion prevention). References: https://en.wikipedia.org/wiki/Wireless_intrusion_prevention_system</explanation>
+	</question>
+	<question id=429 topic=4 answer=A>
+		<text>How does the Address Resolution Protocol (ARP) work?</text>
+		<A>It sends a request packet to all the network elements, asking for the MAC address from a specific IP.</A>
+		<B>It sends a reply packet to all the network elements, asking for the MAC address from a specific IP.</B>
+		<C>It sends a reply packet for a specific IP, asking for the MAC address.</C>
+		<D>It sends a request packet to all the network elements, asking for the domain name from a specific IP.</D>
+		<explanation>When an incoming packet destined for a host machine on a particular local area network arrives at a gateway, the gateway asks the ARP program to find a physical host or MAC address that matches the IP address. The ARP program looks in the ARP cache and, if it finds the address, provides it so that the packet can be converted to the right packet length and format and sent to the machine. If no entry is found for the IP address, ARP broadcasts a request packet in a special format to all the machines on the LAN to see if one machine knows that it has that IP address associated with it. A machine that recognizes the IP address as its own returns a reply so indicating. ARP updates the ARP cache for future reference and then sends the packet to the MAC address that replied. References: http://searchnetworking.techtarget.com/definition/Address-Resolution-Protocol-ARP</explanation>
+	</question>
+	<question id=432 topic=-4 answer=A>
+		<text>You are a Network Security Officer. You have two machines. The first machine (192.168.0.99) has snort installed, and the second machine (192.168.0.150) has kiwi syslog installed. You perform a syn scan in your network, and you notice that kiwi syslog is not receiving the alert message from snort. You decide to run wireshark in the snort machine to check if the messages are going to the kiwi syslog machine. What wireshark filter will show the connections from the snort machine to kiwi syslog machine?</text>
+		<A>tcp.dstport==514 && ip.dst==192.168.0.150</A>
+		<B>tcp.srcport==514 && ip.src==192.168.0.99</B>
+		<C>tcp.dstport==514 && ip.dst==192.168.0.0/16</C>
+		<D>tcp.srcport==514 && ip.src==192.168.150</D>
+		<explanation>We need to configure destination port at destination ip. The destination ip is 192.168.0.150, where the kiwi syslog is installed. References: https://wiki.wireshark.org/DisplayFilters</explanation>
+	</question>
+	<question id=434 topic=4 answer=A>
+		<text>env x=`(){ :;};echo exploit` bash -c 'cat /etc/passwd' What is the Shellshock bash vulnerability attempting to do on a vulnerable Linux host?</text>
+		<A>Display passwd content to prompt</A>
+		<B>Removes the passwd file</B>
+		<C>Changes all passwords in passwd</C>
+		<D>Add new user to the passwd file</D>
+		<explanation>To extract private information, attackers are using a couple of techniques. The simplest extraction attacks are in the form: () {:;}; /bin/cat /etc/passwd That reads the password file /etc/passwd, and adds it to the response from the web server. So an attacker injecting this code through the Shellshock vulnerability would see the password file dumped out onto their screen as part of the web page returned. References: https://blog.cloudflare.com/inside-shellshock/</explanation>
+	</question>
+	<question id=436 topic=4 answer=A>
+		<text>You have successfully compromised a machine on the network and found a server that is alive on the same network. You tried to ping it but you didn't get any response back. What is happening?</text>
+		<A>ICMP could be disabled on the target server.</A>
+		<B>The ARP is disabled on the target server.</B>
+		<C>TCP/IP doesn't support ICMP.</C>
+		<D>You need to run the ping command with root privileges.</D>
+		<explanation>The ping utility is implemented using the ICMP "Echo request" and "Echo reply" messages. Note: The Internet Control Message Protocol (ICMP) is one of the main protocols of the internet protocol suite. It is used by network devices, like routers, to send error messages indicating, for example, that a requested service is not available or that a host or router could not be reached. References: https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol</explanation>
+	</question>
+	<question id=441 topic=4 answer=A>
+		<text>Which of the following is the BEST way to defend against network sniffing?</text>
+		<A>Using encryption protocols to secure network communications</A>
+		<B>Register all machines MAC Address in a Centralized Database</B>
+		<C>Restrict Physical Access to Server Rooms hosting Critical Servers</C>
+		<D>Use Static IP Address</D>
+		<explanation>A way to protect your network traffic from being sniffed is to use encryption such as Secure Sockets Layer (SSL) or Transport Layer Security (TLS). Encryption doesn't prevent packet sniffers from seeing source and destination information, but it does encrypt the data packet's payload so that all the sniffer sees is encrypted gibberish. References: http://netsecurity.about.com/od/informationresources/a/What-Is-A-Packet-Sniffer.htm</explanation>
+	</question>
+	<question id=446 topic=4 answer=A>
+		<text>When you return to your desk after a lunch break, you notice a strange email in your inbox. The sender is someone you did business with recently, but the subject line has strange characters in it. What should you do?</text>
+		<A>Forward the message to your company’s security response team and permanently delete the message from your computer.</A>
+		<B>Reply to the sender and ask them for more information about the message contents.</B>
+		<C>Delete the email and pretend nothing happened</C>
+		<D>Forward the message to your supervisor and ask for her opinion on how to handle the situation</D>
+		<explanation>By setting up an email address for your users to forward any suspicious email to, the emails can be automatically scanned and replied to, with security incidents created to follow up on any emails with attached malware or links to known bad websites. References: https://docs.servicenow.com/bundle/helsinki-security-management/page/product/threat-intelligence/task/t_Confi</explanation>
+	</question>
+	<question id=451 topic=4 answer=A>
+		<text>It is a short-range wireless communication technology intended to replace the cables connecting portable of fixed devices while maintaining high levels of security. It allows mobile phones, computers and other devices to connect and communicate using a short-range wireless connection. Which of the following terms best matches the definition?</text>
+		<A>Bluetooth</A>
+		<B>Radio-Frequency Identification</B>
+		<C>WLAN</C>
+		<D>InfraRed</D>
+		<explanation>Bluetooth is a standard for the short-range wireless interconnection of mobile phones, computers, and other electronic devices. References: http://www.bbc.co.uk/webwise/guides/about-bluetooth</explanation>
+	</question>
+	<question id=453 topic=4 answer=A>
+		<text>You are attempting to man-in-the-middle a session. Which protocol will allow you to guess a sequence number?</text>
+		<A>TCP</A>
+		<B>UPD</B>
+		<C>ICMP</C>
+		<D>UPX</D>
+		<explanation>At the establishment of a TCP session the client starts by sending a SYN-packet (SYN=synchronize) with a sequence number. To hijack a session it is required to send a packet with a right seq-number, otherwise they are dropped. References: https://www.exploit-db.com/papers/13587/</explanation>
+	</question>
+	<question id=455 topic=4 answer=A>
+		<text>You are using NMAP to resolve domain names into IP addresses for a ping sweep later. Which of the following commands looks for IP addresses?</text>
+		<A>>host -t a hackeddomain.com</A>
+		<B>>host -t soa hackeddomain.com</B>
+		<C>>host -t ns hackeddomain.com</C>
+		<D>>host -t AXFR hackeddomain.com</D>
+		<explanation>The A record is an Address record. It returns a 32-bit IPv4 address, most commonly used to map hostnames to an IP address of the host. References: https://en.wikipedia.org/wiki/List_of_DNS_record_types</explanation>
+	</question>
+	<question id=459 topic=4 answer=A>
+		<text>During a recent security assessment, you discover the organization has one Domain Name Server (DNS) in a Demilitarized Zone (DMZ) and a second DNS server on the internal network. What is this type of DNS configuration commonly called?</text>
+		<A>Split DNS</A>
+		<B>DNSSEC</B>
+		<C>DynDNS</C>
+		<D>DNS Scheme</D>
+		<explanation>In a split DNS infrastructure, you create two zones for the same domain, one to be used by the internal network, the other used by the external network. Split DNS directs internal hosts to an internal domain name server for name resolution and external hosts are directed to an external domain name server for name resolution. References: http://www.webopedia.com/TERM/S/split_DNS.html</explanation>
+	</question>
+	<question id=462 topic=4 answer=A>
+		<text>The Open Web Application Security Project (OWASP) is the worldwide not-for-profit charitable organization focused on improving the security of software. What item is the primary concern on OWASP's Top Ten Project Most Critical Web Application Security Risks?</text>
+		<A>Injection</A>
+		<B>Cross Site Scripting</B>
+		<C>Cross Site Request Forgery</C>
+		<D>Path disclosure</D>
+		<explanation>The top item of the OWASP 2013 OWASP's Top Ten Project Most Critical Web Application Security Risks is injection. Injection flaws, such as SQL, OS, and LDAP injection occur when untrusted data is sent to an interpreter as part of a command or query. The attacker’s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization. References: https://www.owasp.org/index.php/Top_10_2013-Top_10</explanation>
+	</question>
+	<question id=467 topic=4 answer=A>
+		<text>Which regulation defines security and privacy controls for Federal information systems and organizations?</text>
+		<B>D. HIPAA</B>
+		<explanation>U.S. federal information systems except those related to national security. References: https://en.wikipedia.org/wiki/NIST_Special_Publication_800-53</explanation>
+	</question>
+	<question id=471 topic=4 answer=A>
+		<text>This tool is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured. It implements the standard FMS attack along with some optimizations like KoreK attacks, as well as the PTW attack, thus making the attack much faster compared to other WEP cracking tools. Which of the following tools is being described?</text>
+		<A>Aircrack-ng</A>
+		<B>Airguard</B>
+		<C>WLAN-crack</C>
+		<D>wificracker</D>
+		<explanation>Aircrack-ng is a complete suite of tools to assess WiFi network security. The default cracking method of Aircrack-ng is PTW, but Aircrack-ng can also use the FMS/KoreK method, which incorporates various statistical attacks to discover the WEP key and uses these in combination with brute forcing. References: http://www.aircrack-ng.org/doku.php?id=aircrack-ng</explanation>
+	</question>
+	<question id=472 topic=4 answer=A>
+		<text>Which of the following is assured by the use of a hash?</text>
+		<A>Integrity</A>
+		<B>Confidentiality</B>
+		<C>Authentication</C>
+		<D>Availability</D>
+		<explanation>An important application of secure hashes is verification of message integrity. Determining whether any changes have been made to a message (or a file), for example, can be accomplished by comparing message digests calculated before, and after, transmission (or any other event). References: https://en.wikipedia.org/wiki/Cryptographic_hash_function#Verifying_the_integrity_of_files_or_messages</explanation>
+	</question>
+	<question id=474 topic=4 answer=A>
+		<text>Which tool allows analysts and pen testers to examine links between data using graphs and link analysis?</text>
+		<A>Maltego</A>
+		<B>Cain & Abel</B>
+		<C>Metasploit</C>
+		<D>Wireshark</D>
+		<explanation>Maltego is proprietary software used for open-source intelligence and forensics, developed by Paterva. Maltego focuses on providing a library of transforms for discovery of data from open sources, and visualizing that information in a graph format, suitable for link analysis and data mining. References: https://en.wikipedia.org/wiki/Maltego</explanation>
+	</question>
+	<question id=475 topic=4 answer=A>
+		<text>Which mode of IPSec should you use to assure security and confidentiality of data within the same LAN?</text>
+		<A>ESP transport mode</A>
+		<B>AH permiscuous</B>
+		<C>ESP confidential</C>
+		<D>AH Tunnel mode</D>
+		<explanation>When transport mode is used, IPSec encrypts only the IP payload. Transport mode provides the protection of an IP payload through an AH or ESP header. Encapsulating Security Payload (ESP) provides confidentiality (in addition to authentication, integrity, and anti-replay protection) for the IP payload.</explanation>
+	</question>
+	<question id=479 topic=-4 answer=D>
+		<text>Which of the following is the greatest threat posed by backups?</text>
+		<A>A backup is the source of Malware or illicit information.</A>
+		<B>A backup is unavailable during disaster recovery.</B>
+		<C>A backup is incomplete because no verification was performed.</C>
+		<D>An un-encrypted backup can be misplaced or stolen.</D>
+		<explanation>If the data written on the backup media is properly encrypted, it will be useless for anyone without the key. References: http://resources.infosecinstitute.com/backup-media-encryption/</explanation>
+	</question>
+	<question id=481 topic=-4 answer=A>
+		<text>What is the process of logging, recording, and resolving events that take place in an organization?</text>
+		<A>Incident Management Process</A>
+		<B>Security Policy</B>
+		<C>Internal Procedure</C>
+		<D>Metrics</D>
+		<explanation>The activities within the incident management process include: References: https://en.wikipedia.org/wiki/Incident_management_(ITSM)#Incident_management_procedure</explanation>
+	</question>
+	<question id=485 topic=-4 answer=A>
+		<text>Jimmy is standing outside a secure entrance to a facility. He is pretending to have a tense conversation on his cell phone as an authorized employee badges in. Jimmy, while still on the phone, grabs the door as it begins to close. What just happened?</text>
+		<A>Tailgating</A>
+		<B>Masqurading</B>
+		<C>Phishing</C>
+		<D>Whaling</D>
+		<explanation>In security, tailgating refers to when a person tags along with another person who is authorized to gain entry into a restricted area, or pass a certain checkpoint. References: https://en.wikipedia.org/wiki/Piggybacking_(security)</explanation>
+	</question>
+	<question id=490 topic=-4 answer=A>
+		<text>You just set up a security system in your network. In what kind of system would you find the following string of characters used as a rule within its configuration?alert tcp any any -> 192.168.100.0/24 21 (msg: "FTP on the network!";)</text>
+		<A>An Intrusion Detection System</A>
+		<B>A firewall IPTable</B>
+		<C>A Router IPTable</C>
+		<D>FTP Server rule</D>
+		<explanation>Snort is an open source network intrusion detection system (NIDS) for networks . Snort rule example: This example is a rule with a generator id of 1000001. alert tcp any any -> any 80 (content:"BOB"; gid:1000001; sid:1; rev:1;) References: http://manual-snort-org.s3-website-us-east-1.amazonaws.com/node31.html</explanation>
+	</question>
+	<question id=493 topic=-4 answer=>
+		<text>While using your bank’s online servicing you notice the following string in the URL bar: “http://www.MyPersonalBank.com/account?id=368940911028389 &Damount=10980&Camount=21” You observe that if you modify the Damount & Camount values and submit the request, that data on the web page reflect the changes. Which type of vulnerability is present on this site?</text>
+		<A>Web Parameter Tampering</A>
+		<B>Cookie Tampering</B>
+		<C>XSS Reflection</C>
+		<D>SQL injection</D>
+		<explanation>The Web Parameter Tampering attack is based on the manipulation of parameters exchanged between client and server in order to modify application data, such as user credentials and permissions, price and quantity of products, etc. Usually, this information is stored in cookies, hidden form fields, or URL Query Strings, and is used to increase application functionality and control. References: https://www.owasp.org/index.php/Web_Parameter_Tampering</explanation>
+	</question>
+	<question id=494 topic=4 answer=A>
+		<text>An attacker changes the profile information of a particular user (victim) on the target website. The attacker uses this string to update the victim’s profile to a text file and then submit the data to the attacker’s database. <iframe src="http://www.vulnweb.com/updateif.php" style="display:none"></iframe> What is this type of attack (that can use either HTTP GET or HTTP POST) called?</text>
+		<A>Cross-Site Request Forgery</A>
+		<B>Cross-Site Scripting</B>
+		<C>SQL Injection</C>
+		<D>Browser Hacking</D>
+		<explanation>Cross-site request forgery, also known as one-click attack or session riding and abbreviated as CSRF (sometimes pronounced sea-surf) or XSRF, is a type of malicious exploit of a website where unauthorized commands are transmitted from a user that the website trusts. Different HTTP request methods, such as GET and POST, have different level of susceptibility to CSRF attacks and require different levels of protection due to their different handling by web browsers. References: https://en.wikipedia.org/wiki/Cross-site_request_forgery</explanation>
+	</question>
+	<question id=497 topic=4 answer=A>
+		<text>You are tasked to perform a penetration test. While you are performing information gathering, you find an employee list in Google. You find the receptionist's email, and you send her an email changing the source email to her boss's email( boss@company ). In this email, you ask for a pdf with information. She reads your email and sends back a pdf with links. You exchange the pdf links with your malicious links (these links contain malware) and send back the modified pdf, saying that the links don't work. She reads your email, opens the links, and her machine gets infected. You now have access to the company network. What testing method did you use?</text>
+		<A>Social engineering</A>
+		<B>Tailgating</B>
+		<C>Piggybacking</C>
+		<D>Eavesdropping</D>
+		<explanation>Social engineering, in the context of information security, refers to psychological manipulation of people into performing actions or divulging confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access, it differs from a traditional "con" in that it is often one of many steps in a more complex fraud scheme.</explanation>
+	</question>
+	<question id=501 topic=4 answer=A>
+		<text>The network administrator contacts you and tells you that she noticed the temperature on the internal wireless router increases by more than 20% during weekend hours when the office was closed. She asks you to investigate the issue because she is busy dealing with a big conference and she doesn’t have time to perform the task. What tool can you use to view the network traffic being sent and received by the wireless router?</text>
+		<A>Wireshark</A>
+		<B>Nessus</B>
+		<C>Netcat</C>
+		<D>Netstat</D>
+		<explanation>Wireshark is a Free and open source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education.</explanation>
+	</question>
+	<question id=502 topic=4 answer=A>
+		<text>Your company was hired by a small healthcare provider to perform a technical assessment on the network. What is the best approach for discovering vulnerabilities on a Windows-based computer?</text>
+		<A>Use a scan tool like Nessus</A>
+		<B>Use the built-in Windows Update tool</B>
+		<C>Check MITRE.org for the latest list of CVE findings</C>
+		<D>Create a disk image of a clean Windows installation</D>
+		<explanation>Nessus is an open-source network vulnerability scanner that uses the Common Vulnerabilities and Exposures architecture for easy cross-linking between compliant security tools. The Nessus server is currently available for Unix, Linux and FreeBSD. The client is available for Unix- or Windows-based operating systems. Note: Significant capabilities of Nessus include: References: http://searchnetworking.techtarget.com/definition/Nessus</explanation>
+	</question>
+	<question id=504 topic=4 answer=A>
+		<text>You are performing a penetration test. You achieved access via a buffer overflow exploit and you proceed to find interesting data, such as files with usernames and passwords. You find a hidden folder that has the administrator's bank account password and login information for the administrator's bitcoin account. What should you do?</text>
+		<A>Report immediately to the administrator</A>
+		<B>Do not report it and continue the penetration test.</B>
+		<C>Transfer money from the administrator's account to another account.</C>
+		<D>Do not transfer the money but steal the bitcoins.</D>
+		<explanation></explanation>
+	</question>
+	<question id=506 topic=5 answer=A>
+		<text>While performing online banking using a Web browser, a user receives an email that contains a link to an interesting Web site. When the user clicks on the link, another Web browser session starts and displays a video of cats playing a piano. The next business day, the user receives what looks like an email from his bank, indicating that his bank account has been accessed from a foreign country. The email asks the user to call his bank and verify the authorization of a funds transfer that took place. What Web browser-based security vulnerability was exploited to compromise the user?</text>
+		<A>Cross-Site Request Forgery</A>
+		<B>Cross-Site Scripting</B>
+		<C>Clickjacking</C>
+		<D>Web form input validation</D>
+		<explanation>Cross-site request forgery, also known as one-click attack or session riding and abbreviated as CSRF or XSRF, is a type of malicious exploit of a website where unauthorized commands are transmitted from a user that the website trusts. Example and characteristics If an attacker is able to find a reproducible link that executes a specific action on the target page while the victim is being logged in there, he is able to embed such link on a page he controls and trick the victim into opening it. The attack carrier link may be placed in a location that the victim is likely to visit while logged into the target site (e.g. a discussion forum), sent in a HTML email body or attachment.</explanation>
+	</question>
+	<question id=508 topic=5 answer=B>
+		<text>Which of the following areas is considered a strength of symmetric key cryptography when compared with asymmetric algorithms?</text>
+		<A>Scalability</A>
+		<B>Speed</B>
+		<C>Key distribution</C>
+		<D>Security</D>
+		<explanation></explanation>
+	</question>
+	<question id=510 topic=5 answer=A>
+		<text>Which of the following is a protocol specifically designed for transporting event messages?</text>
+		<A>SYSLOG</A>
+		<B>SMS</B>
+		<C>SNMP</C>
+		<D>ICMP</D>
+		<explanation>syslog is a standard for message logging. It permits separation of the software that generates messages, the system that stores them, and the software that reports and analyzes them. Each message is labeled with a facility code, indicating the software type generating the message, and assigned a severity label. References: https://en.wikipedia.org/wiki/Syslog#Network_protocol</explanation>
+	</question>
+	<question id=512 topic=5 answer=>
+		<text>Internet Protocol Security IPSec is actually a suite of protocols. Each protocol within the suite provides different functionality. Collective IPSec does everything except.</text>
+		<A>Protect the payload and the headers</A>
+		<B>Authenticate</B>
+		<C>Encrypt</C>
+		<D>Work at the Data Link Layer</D>
+		<explanation></explanation>
+	</question>
+	<question id=517 topic=5 answer=A>
+		<text>Which of the following is designed to identify malicious attempts to penetrate systems?</text>
+		<A>Intrusion Detection System</A>
+		<B>Firewall</B>
+		<C>Proxy</C>
+		<D>Router</D>
+		<explanation>An intrusion detection system (IDS) is a device or software application that monitors network or system activities for malicious activities or policy violations and produces electronic reports to a management station. References: https://en.wikipedia.org/wiki/Intrusion_detection_system</explanation>
+	</question>
+	<question id=521 topic=5 answer=C>
+		<text>What network security concept requires multiple layers of security controls to be placed throughout an IT infrastructure, which improves the security posture of an organization to defend against malicious attacks or potential vulnerabilities?</text>
+		<A>Security through obscurity</A>
+		<B>Host-Based Intrusion Detection System</B>
+		<C>Defense in depth</C>
+		<D>Network-Based Intrusion Detection System</D>
+		<explanation></explanation>
+	</question>
+	<question id=525 topic=5 answer=C>
+		<text>The company ABC recently discovered that their new product was released by the opposition before their premiere. They contract an investigator who discovered that the maid threw away papers with confidential information about the new product and the opposition found it in the garbage. What is the name of the technique used by the opposition?</text>
+		<A>Hack attack</A>
+		<B>Sniffing</B>
+		<C>Dumpster diving</C>
+		<D>Spying</D>
+		<explanation></explanation>
+	</question>
+	<question id=529 topic=5 answer=B>
+		<text>Craig received a report of all the computers on the network that showed all the missing patches and weak passwords. What type of software generated this report?</text>
+		<A>a port scanner</A>
+		<B>a vulnerability scanner</B>
+		<C>a virus scanner</C>
+		<D>a malware scanner</D>
+		<explanation></explanation>
+	</question>
+	<question id=530 topic=5 answer=A>
+		<text>PGP, SSL, and IKE are all examples of which type of cryptography?</text>
+		<A>Public Key</A>
+		<B>Secret Key</B>
+		<C>Hash Algorithm</C>
+		<D>Digest</D>
+		<explanation>Public-key algorithms are fundamental security ingredients in cryptosystems, applications and protocols. They underpin various Internet standards, such as Secure Sockets Layer (SSL),Transport Layer Security (TLS), S/MIME, PGP, Internet Key Exchange (IKE or IKEv2), and GPG. References: https://en.wikipedia.org/wiki/Public-key_cryptography</explanation>
+	</question>
+	<question id=534 topic=5 answer=A>
+		<text>In Risk Management, how is the term "likelihood" related to the concept of "threat?"</text>
+		<A>Likelihood is the probability that a threat-source will exploit a vulnerability.</A>
+		<B>Likelihood is a possible threat-source that may exploit a vulnerability.</B>
+		<C>Likelihood is the likely source of a threat that could exploit a vulnerability.</C>
+		<D>Likelihood is the probability that a vulnerability is a threat-source.</D>
+		<explanation>The ability to analyze the likelihood of threats within the organization is a critical step in building an effective security program. The process of assessing threat probability should be well defined and incorporated into a broader threat analysis process to be effective. References: http://www.mcafee.com/campaign/securitybattleground/resources/chapter5/whitepaper-on-assessing-threat-attac</explanation>
+	</question>
+	<question id=537 topic=-5 answer=A,B>
+		<text>In both pharming and phishing attacks an attacker can create websites that look similar to legitimate sites with the intent of collecting personal identifiable information from its victims. What is the difference between pharming and phishing attacks?</text>
+		<A>In a pharming attack a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DN</A>
+		<B>In a phishing attack an attacker provides the victim with a URL that is either misspelled or looks similar to the actual websites domain name.</B>
+		<C>Both pharming and phishing attacks are purely technical and are not considered forms of social engineering.</C>
+		<D>Both pharming and phishing attacks are identical.</D>
+		<E>In a phishing attack a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DN</E>
+		<F>In a pharming attack an attacker provides the victim with a URL that is either misspelled or looks very similar to the actual websites domain name.</F>
+		<explanation></explanation>
+	</question>
+	<question id=538 topic=-5 answer=A>
+		<text>Which protocol is used for setting up secured channels between two devices, typically in VPNs?</text>
+		<A>IPSEC</A>
+		<B>PEM</B>
+		<C>SET</C>
+		<D>PPP</D>
+		<explanation></explanation>
+	</question>
+	<question id=539 topic=-5 answer=D>
+		<text>You are an Ethical Hacker who is auditing the ABC company. When you verify the NOC one of the machines has 2 connections, one wired and the other wireless. When you verify the configuration of this Windows system you find two static routes. route add 10.0.0.0 mask 255.0.0.0 10.0.0.1 route add 0.0.0.0 mask 255.0.0.0 199.168.0.1 What is the main purpose of those static routes?</text>
+		<A>Both static routes indicate that the traffic is external with different gateway.</A>
+		<B>The first static route indicates that the internal traffic will use an external gateway and the second static route indicates that the traffic will be rerouted.</B>
+		<C>Both static routes indicate that the traffic is internal with different gateway.</C>
+		<D>The first static route indicates that the internal addresses are using the internal gateway and the second static route indicates that all the traffic that is not internal must go to an external gateway.</D>
+		<explanation></explanation>
+	</question>
+	<question id=544 topic=-5 answer=C>
+		<text>Due to a slowdown of normal network operations, IT department decided to monitor internet traffic for all of the employees. From a legal stand point, what would be troublesome to take this kind of measure?</text>
+		<A>All of the employees would stop normal work activities</A>
+		<B>IT department would be telling employees who the boss is</B>
+		<C>Not informing the employees that they are going to be monitored could be an invasion of privacy.</C>
+		<D>The network could still experience traffic slow down.</D>
+		<explanation></explanation>
+	</question>
+	<question id=546 topic=-5 answer=A>
+		<text>A large mobile telephony and data network operator has a data that houses network elements. These are essentially large computers running on Linux. The perimeter of the data center is secured with firewalls and IPS systems. What is the best security policy concerning this setup?</text>
+		<A>Network elements must be hardened with user ids and strong password</A>
+		<B>Regular security tests and audits should be performed.</B>
+		<C>As long as the physical access to the network elements is restricted, there is no need for additional measures.</C>
+		<D>There is no need for specific security measures on the network elements as long as firewalls and IPS systems exist.</D>
+		<E>The operator knows that attacks and down time are inevitable and should have a backup site.</E>
+		<explanation></explanation>
+	</question>
+	<question id=551 topic=5 answer=A>
+		<text>Which of the following tools is used to detect wireless LANs using the 802.11a/b/g/n WLAN standards on a linux platform?</text>
+		<A>Kismet</A>
+		<B>Nessus</B>
+		<C>Netstumbler</C>
+		<D>Abel</D>
+		<explanation>Kismet is a network detector, packet sniffer, and intrusion detection system for 802.11 wireless LANs. Kismet will work with any wireless card which supports raw monitoring mode, and can sniff 802.11a, 802.11b, 802.11g, and 802.11n traffic. The program runs under Linux, FreeBSD, NetBSD, OpenBSD, and Mac OS X. References: https://en.wikipedia.org/wiki/Kismet_(software)</explanation>
+	</question>
+	<question id=554 topic=5 answer=A>
+		<text>Which method of password cracking takes the most time and effort?</text>
+		<A>Brute force</A>
+		<B>Rainbow tables</B>
+		<C>Dictionary attack</C>
+		<D>Shoulder surfing</D>
+		<explanation>Brute-force cracking, in which a computer tries every possible key or password until it succeeds, is typically very time consuming. More common methods of password cracking, such as dictionary attacks, pattern checking, word list substitution, etc. attempt to reduce the number of trials required and will usually be attempted before brute force. References: https://en.wikipedia.org/wiki/Password_cracking</explanation>
+	</question>
+	<question id=558 topic=5 answer=A>
+		<text>You are the Systems Administrator for a large corporate organization. You need to monitor all network traffic on your local network for suspicious activities and receive notifications when an attack is occurring. Which tool would allow you to accomplish this goal?</text>
+		<A>Network-based IDS</A>
+		<B>Firewall</B>
+		<C>Proxy</C>
+		<D>Host-based IDS</D>
+		<explanation>A network-based intrusion detection system (NIDS) is used to monitor and analyze network traffic to protect a system from network-based threats. A NIDS reads all inbound packets and searches for any suspicious patterns. When threats are discovered, based on its severity, the system can take action such as notifying administrators, or barring the source IP address from accessing the network. References: https://www.techopedia.com/definition/12941/network-based-intrusion-detection-system-nids</explanation>
+	</question>
+	<question id=559 topic=5 answer=A>
+		<text>Which of the following security operations is used for determining the attack surface of an organization?</text>
+		<A>Running a network scan to detect network services in the corporate DMZ</A>
+		<B>Training employees on the security policy regarding social engineering</B>
+		<C>Reviewing the need for a security clearance for each employee</C>
+		<D>Using configuration management to determine when and where to apply security patches</D>
+		<explanation>For a network scan the goal is to document the exposed attack surface along with any easily detected vulnerabilities. References: http://meisecurity.com/home/consulting/consulting-network-scanning/</explanation>
+	</question>
+	<question id=564 topic=5 answer=A>
+		<text>Which of the following tools is used to analyze the files produced by several packet-capture programs such as tcpdump, WinDump, Wireshark, and EtherPeek?</text>
+		<A>tcptrace</A>
+		<B>tcptraceroute</B>
+		<C>Nessus</C>
+		<D>OpenVAS</D>
+		<explanation>tcptrace is a tool for analysis of TCP dump files. It can take as input the files produced by several popular packet-capture programs, including tcpdump/WinDump/Wireshark, snoop, EtherPeek, and Agilent NetMetrix. References: https://en.wikipedia.org/wiki/Tcptrace</explanation>
+	</question>
+	<question id=565 topic=5 answer=D>
+		<text>What is the correct process for the TCP three-way handshake connection establishment and connection termination?</text>
+		<A>Connection Establishment: FIN, ACK-FIN, ACKConnection Termination: SYN, SYN-ACK, ACK</A>
+		<B>Connection Establishment: SYN, SYN-ACK, ACKConnection Termination: ACK, ACK-SYN, SYN</B>
+		<C>Connection Establishment: ACK, ACK-SYN, SYNConnection Termination: FIN, ACK-FIN, ACK</C>
+		<D>Connection Establishment: SYN, SYN-ACK, ACKConnection Termination: FIN, ACK-FIN, ACK</D>
+		<explanation></explanation>
+	</question>
+	<question id=570 topic=-5 answer=D>
+		<text>You want to do an ICMP scan on a remote computer using hping2. What is the proper syntax?</text>
+		<A>hping2 host.domain.com</A>
+		<B>hping2 --set-ICMP host.domain.com</B>
+		<C>hping2 -i host.domain.com</C>
+		<D>hping2 -1 host.domain.com</D>
+		<explanation></explanation>
+	</question>
+	<question id=573 topic=5 answer=D>
+		<text>Sophia travels a lot and worries that her laptop containing confidential documents might be stolen. What is the best protection that will work for her?</text>
+		<A>Password protected files</A>
+		<B>Hidden folders</B>
+		<C>BIOS password</C>
+		<D>Full disk encryption.</D>
+		<explanation></explanation>
+	</question>
+	<question id=574 topic=5 answer=A>
+		<text>What does a firewall check to prevent particular ports and applications from getting packets into an organization?</text>
+		<A>Transport layer port numbers and application layer headers</A>
+		<B>Presentation layer headers and the session layer port numbers</B>
+		<C>Network layer headers and the session layer port numbers</C>
+		<D>Application layer port numbers and the transport layer headers</D>
+		<explanation>Newer firewalls can filter traffic based on many packet attributes like source IP address, source port, destination IP address or transport layer port, destination service like WWW or FTP. They can filter based on protocols, TTL values, netblock of originator, of the source, and many other attributes. Application layer firewalls are responsible for filtering at 3, 4, 5, 7 layer. Because they analyze the application layer headers, most firewall control and filtering is performed actually in the software. References: https://en.wikipedia.org/wiki/Firewall_(computing)#Network_layer_or_packet_filters http://howdoesinternetwork.com/2012/application-layer-firewalls</explanation>
+	</question>
+	<question id=578 topic=5 answer=D>
+		<text>Which tier in the N-tier application architecture is responsible for moving and processing data between the tiers?</text>
+		<A>Application Layer</A>
+		<B>Data tier</B>
+		<C>Presentation tier</C>
+		<D>Logic tier</D>
+		<explanation></explanation>
+	</question>
+	<question id=583 topic=5 answer=>
+		<text>Bob learned that his username and password for a popular game has been compromised. He contacts the company and resets all the information. The company suggests he use two-factor authentication, which option below offers that?</text>
+		<A>A new username and password</A>
+		<B>A fingerprint scanner and his username and password.</B>
+		<C>Disable his username and use just a fingerprint scanner.</C>
+		<D>His username and a stronger password.</D>
+		<explanation></explanation>
+	</question>
+	<question id=584 topic=5 answer=A>
+		<text>Which Intrusion Detection System is best applicable for large environments where critical assets on the network need extra security and is ideal for observing sensitive network segments?</text>
+		<A>Network-based intrusion detection system (NIDS)</A>
+		<B>Host-based intrusion detection system (HIDS)</B>
+		<C>Firewalls</C>
+		<D>Honeypots</D>
+		<explanation></explanation>
+	</question>
+	<question id=585 topic=5 answer=A>
+		<text>Attempting an injection attack on a web server based on responses to True/False questions is called which of the following?</text>
+		<A>Blind SQLi</A>
+		<B>DMS-specific SQLi</B>
+		<C>Classic SQLi</C>
+		<D>Compound SQLi</D>
+		<explanation></explanation>
+	</question>
+	<question id=590 topic=5 answer=A>
+		<text>A company's security policy states that all Web browsers must automatically delete their HTTP browser cookies upon terminating. What sort of security breach is this policy attempting to mitigate?</text>
+		<A>Attempts by attackers to access Web sites that trust the Web browser user by stealing the user's authentication credentials.</A>
+		<B>Attempts by attackers to access the user and password information stored in the company's SQL database.</B>
+		<C>Attempts by attackers to access passwords stored on the user's computer without the user's knowledge.</C>
+		<D>Attempts by attackers to determine the user's Web browser usage patterns, including when sites were visited and for how long.</D>
+		<explanation>Cookies can store passwords and form content a user has previously entered, such as a credit card number or an address. Cookies can be stolen using a technique called cross-site scripting. This occurs when an attacker takes advantage of a website that allows its users to post unfiltered HTML and JavaScript content. References: https://en.wikipedia.org/wiki/HTTP_cookie#Cross-site_scripting_.E2.80.93_cookie_theft</explanation>
+	</question>
+	<question id=592 topic=5 answer=A>
+		<text>What is correct about digital signatures?</text>
+		<A>A digital signature cannot be moved from one signed document to another because it is the hash of the original document encrypted with the private key of the signing party.</A>
+		<B>Digital signatures may be used in different documents of the same type.</B>
+		<C>A digital signature cannot be moved from one signed document to another because it is a plain hash of the document content.</C>
+		<D>Digital signatures are issued once for each user and can be used everywhere until they expire.</D>
+		<explanation></explanation>
+	</question>
+	<question id=596 topic=5 answer=A>
+		<text>What term describes the amount of risk that remains after the vulnerabilities are classified and the countermeasures have been deployed?</text>
+		<A>Residual risk</A>
+		<B>Inherent risk</B>
+		<C>Deferred risk</C>
+		<D>Impact risk</D>
+		<explanation>The residual risk is the risk or danger of an action or an event, a method or a (technical) process that, although being abreast with science, still conceives these dangers, even if all theoretically possible safety measures would be applied (scientifically conceivable measures); in other words, the amount of risk left over after natural or inherent risks have been reduced by risk controls. References: https://en.wikipedia.org/wiki/Residual_risk</explanation>
+	</question>
+	<question id=597 topic=5 answer=A,B>
+		<text>What is the role of test automation in security testing?</text>
+		<A>It can accelerate benchmark tests and repeat them with a consistent test setu</A>
+		<B>But it cannot replace manual testing completely.</B>
+		<C>It is an option but it tends to be very expensive.</C>
+		<D>It should be used exclusivel</D>
+		<E>Manual testing is outdated because of low speed and possible test setup inconsistencies.</E>
+		<F>Test automation is not usable in security due to the complexity of the tests.</F>
+		<explanation></explanation>
+	</question>
+	<question id=600 topic=-5 answer=A>
+		<text>Which of the following is a low-tech way of gaining unauthorized access to systems?</text>
+		<A>Social Engineering</A>
+		<B>Sniffing</B>
+		<C>Eavesdropping</C>
+		<D>Scanning</D>
+		<explanation>Social engineering, in the context of information security, refers to psychological manipulation of people into performing actions or divulging confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. References: https://en.wikipedia.org/wiki/Social_engineering_(security)</explanation>
+	</question>
+	<question id=602 topic=-5 answer=B>
+		<text>In many states sending spam is illegal. Thus, the spammers have techniques to try and ensure that no one knows they sent the spam out to thousands of users at a time. Which of the following best describes what spammers use to hide the origin of these types of e-mails?</text>
+		<A>A blacklist of companies that have their mail server relays configured to allow traffic only to theirspecific domain name.</A>
+		<B>Mail relaying, which is a technique of bouncing e-mail from internal to external mails servers continuously.</B>
+		<C>A blacklist of companies that have their mail server relays configured to be wide open.</C>
+		<D>Tools that will reconfigure a mail server's relay component to send the e-mail back to the spammers occasionally.</D>
+		<explanation></explanation>
+	</question>
+	<question id=607 topic=-5 answer=A>
+		<text>Which of the following tools performs comprehensive tests against web servers, including dangerous files and CGIs?</text>
+		<A>Nikto</A>
+		<B>Snort</B>
+		<C>John the Ripper</C>
+		<D>Dsniff</D>
+		<explanation>Nikto is an Open Source (GPL) web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/CGIs, checks for outdated versions of over 1250 servers, and version specific problems on over 270 servers. It also checks for server configuration items such as the presence of multiple index files, HTTP server options, and will attempt to identify installed web servers and software. Scan items and plugins are frequently updated and can be automatically updated. References: https://en.wikipedia.org/wiki/Nikto_Web_Scanner</explanation>
+	</question>
+	<question id=610 topic=-5 answer=A>
+		<text>An Internet Service Provider (ISP) has a need to authenticate users connecting using analog modems, Digital Subscriber Lines (DSL), wireless data services, and Virtual Private Networks (VPN) over a Frame Relay network. Which AAA protocol is most likely able to handle this requirement?</text>
+		<A>RADIUS</A>
+		<B>DIAMETER</B>
+		<C>Kerberos</C>
+		<D>TACACS+</D>
+		<explanation>Because of the broad support and the ubiquitous nature of the RADIUS protocol, it is often used by ISPs and enterprises to manage access to the Internet or internal networks, wireless networks, and integrated e-mail services. These networks may incorporate modems, DSL, access points, VPNs, network ports, web servers, etc. References: https://en.wikipedia.org/wiki/RADIUS</explanation>
+	</question>
+	<question id=614 topic=-5 answer=C>
+		<text>A well-intentioned researcher discovers a vulnerability on the web site of a major corporation. What should he do?</text>
+		<A>Ignore it.</A>
+		<B>Try to sell the information to a well-paying party on the dark web.</B>
+		<C>Notify the web site owner so that corrective action be taken as soon as possible to patch the vulnerability.</C>
+		<D>Exploit the vulnerability without harming the web site owner so that attention be drawn to the problem.</D>
+		<explanation></explanation>
+	</question>
+	<question id=619 topic=5 answer=C>
+		<text>Jimmy is standing outside a secure entrance to a facility. He is pretending to have a tense conversation on his cell phone as an authorized employee badges in. Jimmy, while still on the phone, grabs the door as it begins to close. What just happened?</text>
+		<A>Phishing</A>
+		<B>Whaling</B>
+		<C>Tailgating</C>
+		<D>Masquerading</D>
+		<explanation></explanation>
+	</question>
+	<question id=623 topic=5 answer=C>
+		<text>Which of these is capable of searching for and locating rogue access points?</text>
+		<A>HIDS</A>
+		<B>WISS</B>
+		<C>WIPS</C>
+		<D>NIDS</D>
+		<explanation></explanation>
+	</question>
+	<question id=624 topic=5 answer=A>
+		<text>The security concept of "separation of duties" is most similar to the operation of which type of security device?</text>
+		<A>Firewall</A>
+		<B>Bastion host</B>
+		<C>Intrusion Detection System</C>
+		<D>Honeypot</D>
+		<explanation>In most enterprises the engineer making a firewall change is also the one reviewing the firewall metrics for unauthorized changes. What if the firewall administrator wanted to hide something? How would anyone ever find out? This is where the separation of duties comes in to focus on the responsibilities of tasks within security. References: http://searchsecurity.techtarget.com/tip/Modern-security-management-strategy-requires-security-separation-of-d</explanation>
+	</question>
+	<question id=627 topic=5 answer=A>
+		<text>An Intrusion Detection System (IDS) has alerted the network administrator to a possibly malicious sequence of packets sent to a Web server in the network's external DMZ. The packet traffic was captured by the IDS and saved to a PCAP file. What type of network tool can be used to determine if these packets are genuinely malicious or simply a false positive?</text>
+		<A>Protocol analyzer</A>
+		<B>Intrusion Prevention System (IPS)</B>
+		<C>Network sniffer</C>
+		<D>Vulnerability scanner</D>
+		<explanation>A packet analyzer (also known as a network analyzer, protocol analyzer or packet sniffer—or, for particular types of networks, an Ethernet sniffer or wireless sniffer) is a computer program or piece of computer hardware that can intercept and log traffic that passes over a digital network or part of a network. A packet analyzer can analyze packet traffic saved in a PCAP file. References: https://en.wikipedia.org/wiki/Packet_analyzer</explanation>
+	</question>
+	<question id=631 topic=5 answer=>
+		<text>To determine if a software program properly handles a wide range of invalid input, a form of automated testing can be used to randomly generate invalid input in an attempt to crash the program. What term is commonly used when referring to this type of testing?</text>
+		<A>Fuzzing</A>
+		<B>Randomizing</B>
+		<C>Mutating</C>
+		<D>Bounding</D>
+		<explanation>Fuzz testing or fuzzing is a software testing technique, often automated or semi-automated, that involves providing invalid, unexpected, or random data to the inputs of a computer program. The program is then monitored for exceptions such as crashes, or failing built-in code assertions or for finding potential memory leaks. Fuzzing is commonly used to test for security problems in software or computer systems. It is a form of random testing which has been used for testing hardware or software. References: https://en.wikipedia.org/wiki/Fuzz_testing</explanation>
+	</question>
+	<question id=636 topic=5 answer=A>
+		<text>A hacker has managed to gain access to a Linux host and stolen the password file from /etc/passwd. How can he use it?</text>
+		<A>The password file does not contain the passwords themselves.</A>
+		<B>He can open it and read the user ids and corresponding passwords.</B>
+		<C>The file reveals the passwords to the root user only.</C>
+		<D>He cannot read it because it is encrypted.</D>
+		<explanation></explanation>
+	</question>
+	<question id=637 topic=6 answer=C>
+		<text>While performing online banking using a Web browser, Kyle receives an email that contains an image of a well-crafted art. Upon clicking the image, a new tab on the web browser opens and shows an animated GIF of bills and coins being swallowed by a crocodile. After several days, Kyle noticed that all his funds on the bank was gone. What Web browser-based security vulnerability got exploited by the hacker?</text>
+		<A>Clickjacking</A>
+		<B>Web Form Input Validation</B>
+		<C>Cross-Site Request Forgery</C>
+		<D>Cross-Site Scripting</D>
+		<explanation></explanation>
+	</question>
+	<question id=639 topic=6 answer=B>
+		<text>Matthew received an email with an attachment named “YouWon$10Grand.zip.” The zip file contains a file named “HowToClaimYourPrize.docx.exe.” Out of excitement and curiosity, Matthew opened the said file. Without his knowledge, the file copies itself to Matthew’s APPDATA\IocaI directory and begins to beacon to a Command-and-control server to download additional malicious binaries. What type of malware has Matthew encountered?</text>
+		<A>Key-logger</A>
+		<B>Trojan</B>
+		<C>Worm</C>
+		<D>Macro Virus</D>
+		<explanation></explanation>
+	</question>
+	<question id=640 topic=6 answer=A>
+		<text>Shellshock had the potential for an unauthorized user to gain access to a server. It affected many internet-facing services, which OS did it not directly affect?</text>
+		<A>Windows</A>
+		<B>Unix</B>
+		<C>Linux</C>
+		<D>OS X</D>
+		<explanation></explanation>
+	</question>
+	<question id=643 topic=6 answer=B>
+		<text>Which Type of scan sends a packets with no flags set?</text>
+		<A>Open Scan</A>
+		<B>Null Scan</B>
+		<C>Xmas Scan</C>
+		<D>Half-Open Scan</D>
+		<explanation></explanation>
+	</question>
+	<question id=644 topic=6 answer=>
+		<text>Which of the following is a wireless network detector that is commonly found on Linux?</text>
+		<A>Kismet</A>
+		<B>Abel</B>
+		<C>Netstumbler</C>
+		<D>Nessus</D>
+		<explanation></explanation>
+	</question>
+	<question id=645 topic=6 answer=C>
+		<text>A server has been infected by a certain type of Trojan. The hacker intended to utilize it to send and host junk mails. What type of Trojan did the hacker use?</text>
+		<A>Turtle Trojans</A>
+		<B>Ransomware Trojans</B>
+		<C>Botnet Trojan</C>
+		<D>Banking Trojans</D>
+		<explanation></explanation>
+	</question>
+	<question id=648 topic=6 answer=B>
+		<text>As an Ethical Hacker you are capturing traffic from your customer network with Wireshark and you need to find and verify just SMTP traffic. What command in Wireshark will help you to find this kind of traffic?</text>
+		<A>request smtp 25</A>
+		<B>tcp.port eq 25</B>
+		<C>smtp port</C>
+		<D>tcp.contains port 25</D>
+		<explanation></explanation>
+	</question>
+	<question id=649 topic=6 answer=C>
+		<text>What is the term coined for logging, recording and resolving events in a company?</text>
+		<A>Internal Procedure</A>
+		<B>Security Policy</B>
+		<C>Incident Management Process</C>
+		<D>Metrics</D>
+		<explanation></explanation>
+	</question>
+	<question id=651 topic=6 answer=A>
+		<text>You are manually conducting Idle Scanning using Hping2. During your scanning you notice that almost every query increments the IPID regardless of the port being queried. One or two of the queries cause the IPID to increment by more than one value. Why do you think this occurs?</text>
+		<A>The zombie you are using is not truly idle.</A>
+		<B>A stateful inspection firewall is resetting your queries.</B>
+		<C>Hping2 cannot be used for idle scanning.</C>
+		<D>These ports are actually open on the target system.</D>
+		<explanation></explanation>
+	</question>
+	<question id=654 topic=6 answer=B>
+		<text>You’ve just gained root access to a Centos 6 server after days of trying. What tool should you use to maintain access?</text>
+		<A>Disable Key Services</A>
+		<B>Create User Account</B>
+		<C>Download and Install Netcat</C>
+		<D>Disable IPTables</D>
+		<explanation></explanation>
+	</question>
+	<question id=655 topic=6 answer=B>
+		<text>A hacker was able to easily gain access to a website. He was able to log in via the frontend user login form of the website using default or commonly used credentials. This exploitation is an example of what Software design flaw?</text>
+		<A>Insufficient security management</A>
+		<B>Insufficient database hardening</B>
+		<C>Insufficient input validation</C>
+		<D>Insufficient exception handling</D>
+		<explanation></explanation>
+	</question>
+	<question id=657 topic=-6 answer=B>
+		<text>........is an attack type for a rogue Wi-Fi access point that appears to be a legitimate one offered on the premises, but actually has been set up to eavesdrop on wireless communications. It is the wireless version of the phishing scam. An attacker fools wireless users into connecting a laptop or mobile phone to a tainted</text>
+		<D>Signal Jamming Attack</D>
+		<A>Collision Attack</A>
+		<B>Evil Twin Attack</B>
+		<C>Sinkhole Attack</C>
+		<explanation></explanation>
+	</question>
+	<question id=662 topic=6 answer=B>
+		<text>Which of the following commands runs snort in packet logger mode?</text>
+		<A>./snort -dev -h ./log</A>
+		<B>./snort -dev -l ./log</B>
+		<C>./snort -dev -o ./log</C>
+		<D>./snort -dev -p ./log</D>
+		<explanation></explanation>
+	</question>
+	<question id=663 topic=6 answer=BD>
+		<text>SNMP is a protocol used to query hosts, servers, and devices about performance or health status data. This protocol has long been used by hackers to gather great amount of information about remote hosts. Which of the following features makes this possible? (Choose two.)</text>
+		<A>It used TCP as the underlying protocol.</A>
+		<B>It uses community string that is transmitted in clear text.</B>
+		<C>It is susceptible to sniffing.</C>
+		<D>It is used by all network devices on the market.</D>
+		<explanation></explanation>
+	</question>
+	<question id=664 topic=6 answer=B>
+		<text>An enterprise recently moved to a new office and the new neighborhood is a little risky. The CEO wants to monitor the physical perimeter and the entrance doors 24 hours. What is the best option to do this job?</text>
+		<A>Use fences in the entrance doors.</A>
+		<B>Install a CCTV with cameras pointing to the entrance doors and the street.</B>
+		<C>Use an IDS in the entrance doors and install some of them near the corners.</C>
+		<D>Use lights in all the entrance doors and along the company's perimeter.</D>
+		<explanation></explanation>
+	</question>
+	<question id=668 topic=6 answer=C>
+		<text>In which phase of the ethical hacking process can Google hacking be employed? This is a technique that involves manipulating a search string with specific operators to search for vulnerabilities. Example: allintitle: root passwd</text>
+		<A>Maintaining Access</A>
+		<B>Gaining Access</B>
+		<C>Reconnaissance</C>
+		<D>Scanning and Enumeration</D>
+		<explanation></explanation>
+	</question>
+	<question id=671 topic=6 answer=C>
+		<text>The practical realities facing organizations today make risk response strategies essential. Which of the following is NOT one of the five basic responses to risk?</text>
+		<A>Accept</A>
+		<B>Mitigate</B>
+		<C>Delegate</C>
+		<D>Avoid</D>
+		<explanation></explanation>
+	</question>
+	<question id=675 topic=6 answer=B>
+		<text>While performing ping scans into a target network you get a frantic call from the organization's security team. They report that they are under a denial of service attack. When you stop your scan, the smurf attack event stops showing up on the organization's IDS monitor. How can you modify your scan to prevent triggering this event in the IDS?</text>
+		<A>Scan more slowly.</A>
+		<B>Do not scan the broadcast IP.</B>
+		<C>Spoof the source IP address.</C>
+		<D>Only scan the Windows systems.</D>
+		<explanation></explanation>
+	</question>
+	<question id=676 topic=6 answer=C>
+		<text>Which of the following will perform an Xmas scan using NMAP?</text>
+		<A>nmap -sA 192.168.1.254</A>
+		<B>nmap -sP 192.168.1.254</B>
+		<C>nmap -sX 192.168.1.254</C>
+		<D>nmap -sV 192.168.1.254</D>
+		<explanation></explanation>
+	</question>
+	<question id=679 topic=6 answer=C>
+		<text>While doing a technical assessment to determine network vulnerabilities, you used the TCP XMAS scan. What would be the response of all open ports?</text>
+		<A>The port will send an ACK</A>
+		<B>The port will send a SYN</B>
+		<C>The port will ignore the packets</C>
+		<D>The port will send an RST</D>
+		<explanation></explanation>
+	</question>
+	<question id=684 topic=6 answer=A>
+		<text>You want to analyze packets on your wireless network. Which program would you use?</text>
+		<A>Wireshark with Airpcap</A>
+		<B>Airsnort with Airpcap</B>
+		<C>Wireshark with Winpcap</C>
+		<D>Ethereal with Winpcap</D>
+		<explanation></explanation>
+	</question>
+	<question id=689 topic=6 answer=D>
+		<text>Sandra has been actively scanning the client network on which she is doing a vulnerability assessment test. While conducting a port scan she notices open ports in the range of 135 to 139. What protocol is most likely to be listening on those ports?</text>
+		<A>Finger</A>
+		<B>FTP</B>
+		<C>Samba</C>
+		<D>SMB</D>
+		<explanation></explanation>
+	</question>
+	<question id=694 topic=6 answer=B>
+		<text>Which of the following security policies defines the use of VPN for gaining access to an internal corporate network?</text>
+		<A>Network security policy</A>
+		<B>Remote access policy</B>
+		<C>Information protection policy</C>
+		<D>Access control policy</D>
+		<explanation></explanation>
+	</question>
+	<question id=699 topic=6 answer=B>
+		<text>Which of the following is a restriction being enforced in “white box testing?”</text>
+		<A>Only the internal operation of a system is known to the tester</A>
+		<B>The internal operation of a system is completely known to the tester</B>
+		<C>The internal operation of a system is only partly accessible to the tester</C>
+		<D>Only the external operation of a system is accessible to the tester</D>
+		<explanation></explanation>
+	</question>
+	<question id=701 topic=6 answer=D>
+		<text>In order to prevent particular ports and applications from getting packets into an organization, what does a firewall check?</text>
+		<A>Network layer headers and the session layer port numbers</A>
+		<B>Presentation layer headers and the session layer port numbers</B>
+		<C>Application layer port numbers and the transport layer headers</C>
+		<D>Transport layer port numbers and application layer headers</D>
+		<explanation></explanation>
+	</question>
+</questions>
