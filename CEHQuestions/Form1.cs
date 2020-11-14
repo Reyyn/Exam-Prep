@@ -38,6 +38,8 @@ namespace CEHQuestions {
         private void cmbSet_SelectedIndexChanged(object sender, EventArgs e) {
             questions = LoadQuestions(questionSets[cmbSet.SelectedIndex]);
 
+            cmbQuestion.Items.Clear();
+
             foreach (Question q in questions) {
                 cmbQuestion.Items.Add(q.ID);
             }
@@ -139,16 +141,20 @@ namespace CEHQuestions {
             }
 
             // load exhibits
+            exhibits = new List<string>();
             var p = questionSet.Split('/').Last<string>();
             p = p.Remove(p.LastIndexOf('.'));
             try {
                 // get images in folder
-                foreach (var f in Directory.EnumerateFiles(exhibit_path + p + @"/"))
+                var path = exhibit_path + p + @"/";
+                foreach (var f in Directory.EnumerateFiles(path))
                     exhibits.Add(f);
 
                 // for each image, find the question with the same id number
-                foreach (string s in exhibits)
-                    list.Find(i => i.ID == s.Split('.')[2].Split('/')[1]).Exhibit = s;
+                foreach (string s in exhibits) {
+                    var q = s.Split('/')[3].Split('.')[0];
+                    list.Find(i => i.ID == q).Exhibit = s;
+                }
             }
             catch (Exception ex) { // some error, just move on
             }
