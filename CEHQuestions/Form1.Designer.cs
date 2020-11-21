@@ -26,23 +26,28 @@
             this.lblTopic = new System.Windows.Forms.Label();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
-            this.txtQuestion = new System.Windows.Forms.TextBox();
             this.btnAnswer = new System.Windows.Forms.Button();
-            this.txtAnswer = new System.Windows.Forms.TextBox();
             this.lblQuestion = new System.Windows.Forms.Label();
             this.cmbSet = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExplain = new System.Windows.Forms.Button();
-            this.imgExhibit = new System.Windows.Forms.PictureBox();
-            this.btnExhibit = new System.Windows.Forms.Button();
             this.cmbQuestion = new System.Windows.Forms.ComboBox();
+            this.lblNumber = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.imgExhibit = new System.Windows.Forms.PictureBox();
+            this.fpnlAnswers = new System.Windows.Forms.FlowLayoutPanel();
+            this.txtQuestion = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btbLoad = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgExhibit)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTopic
             // 
             this.lblTopic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopic.Location = new System.Drawing.Point(12, 55);
+            this.lblTopic.Location = new System.Drawing.Point(12, 50);
             this.lblTopic.Name = "lblTopic";
             this.lblTopic.Size = new System.Drawing.Size(136, 23);
             this.lblTopic.TabIndex = 2;
@@ -52,7 +57,7 @@
             // 
             this.btnPrevious.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrevious.Location = new System.Drawing.Point(12, 429);
+            this.btnPrevious.Location = new System.Drawing.Point(12, 948);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(75, 81);
             this.btnPrevious.TabIndex = 6;
@@ -64,7 +69,7 @@
             // 
             this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(713, 429);
+            this.btnNext.Location = new System.Drawing.Point(1817, 948);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 81);
             this.btnNext.TabIndex = 10;
@@ -72,25 +77,11 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // txtQuestion
-            // 
-            this.txtQuestion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtQuestion.BackColor = System.Drawing.Color.White;
-            this.txtQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuestion.Location = new System.Drawing.Point(12, 81);
-            this.txtQuestion.Multiline = true;
-            this.txtQuestion.Name = "txtQuestion";
-            this.txtQuestion.ReadOnly = true;
-            this.txtQuestion.Size = new System.Drawing.Size(776, 342);
-            this.txtQuestion.TabIndex = 5;
-            // 
             // btnAnswer
             // 
             this.btnAnswer.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnswer.Location = new System.Drawing.Point(285, 480);
+            this.btnAnswer.Location = new System.Drawing.Point(837, 999);
             this.btnAnswer.Name = "btnAnswer";
             this.btnAnswer.Size = new System.Drawing.Size(120, 30);
             this.btnAnswer.TabIndex = 7;
@@ -98,26 +89,15 @@
             this.btnAnswer.UseVisualStyleBackColor = true;
             this.btnAnswer.Click += new System.EventHandler(this.btnAnswer_Click);
             // 
-            // txtAnswer
-            // 
-            this.txtAnswer.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.txtAnswer.BackColor = System.Drawing.Color.White;
-            this.txtAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAnswer.Location = new System.Drawing.Point(348, 438);
-            this.txtAnswer.Name = "txtAnswer";
-            this.txtAnswer.ReadOnly = true;
-            this.txtAnswer.Size = new System.Drawing.Size(120, 31);
-            this.txtAnswer.TabIndex = 8;
-            // 
             // lblQuestion
             // 
             this.lblQuestion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuestion.Location = new System.Drawing.Point(566, 55);
+            this.lblQuestion.Location = new System.Drawing.Point(1702, 50);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(157, 23);
+            this.lblQuestion.Size = new System.Drawing.Size(125, 23);
             this.lblQuestion.TabIndex = 3;
-            this.lblQuestion.Text = "Question:";
+            this.lblQuestion.Text = "Exam Question:";
             this.lblQuestion.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // cmbSet
@@ -143,7 +123,7 @@
             // 
             this.btnExplain.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnExplain.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExplain.Location = new System.Drawing.Point(411, 480);
+            this.btnExplain.Location = new System.Drawing.Point(963, 999);
             this.btnExplain.Name = "btnExplain";
             this.btnExplain.Size = new System.Drawing.Size(120, 30);
             this.btnExplain.TabIndex = 9;
@@ -151,68 +131,141 @@
             this.btnExplain.UseVisualStyleBackColor = true;
             this.btnExplain.Click += new System.EventHandler(this.btnExplain_Click);
             // 
-            // imgExhibit
-            // 
-            this.imgExhibit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgExhibit.Location = new System.Drawing.Point(12, 81);
-            this.imgExhibit.Name = "imgExhibit";
-            this.imgExhibit.Size = new System.Drawing.Size(776, 342);
-            this.imgExhibit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgExhibit.TabIndex = 10;
-            this.imgExhibit.TabStop = false;
-            this.imgExhibit.Visible = false;
-            // 
-            // btnExhibit
-            // 
-            this.btnExhibit.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnExhibit.Enabled = false;
-            this.btnExhibit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExhibit.Location = new System.Drawing.Point(348, 46);
-            this.btnExhibit.Name = "btnExhibit";
-            this.btnExhibit.Size = new System.Drawing.Size(120, 29);
-            this.btnExhibit.TabIndex = 4;
-            this.btnExhibit.Text = "Show Exhibit";
-            this.btnExhibit.UseVisualStyleBackColor = true;
-            this.btnExhibit.Click += new System.EventHandler(this.btnExhibit_Click);
-            // 
             // cmbQuestion
             // 
             this.cmbQuestion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbQuestion.FormattingEnabled = true;
-            this.cmbQuestion.Location = new System.Drawing.Point(729, 52);
+            this.cmbQuestion.Location = new System.Drawing.Point(1833, 47);
             this.cmbQuestion.Name = "cmbQuestion";
             this.cmbQuestion.Size = new System.Drawing.Size(59, 28);
             this.cmbQuestion.TabIndex = 11;
             this.cmbQuestion.SelectedIndexChanged += new System.EventHandler(this.cmbQuestion_SelectedIndexChanged);
+            // 
+            // lblNumber
+            // 
+            this.lblNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumber.Location = new System.Drawing.Point(1579, 50);
+            this.lblNumber.Name = "lblNumber";
+            this.lblNumber.Size = new System.Drawing.Size(117, 23);
+            this.lblNumber.TabIndex = 12;
+            this.lblNumber.Text = "( 0 of 0)";
+            this.lblNumber.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.imgExhibit);
+            this.panel1.Controls.Add(this.fpnlAnswers);
+            this.panel1.Controls.Add(this.txtQuestion);
+            this.panel1.Location = new System.Drawing.Point(12, 76);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1880, 866);
+            this.panel1.TabIndex = 14;
+            // 
+            // imgExhibit
+            // 
+            this.imgExhibit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgExhibit.BackColor = System.Drawing.Color.White;
+            this.imgExhibit.Location = new System.Drawing.Point(3, 84);
+            this.imgExhibit.Name = "imgExhibit";
+            this.imgExhibit.Size = new System.Drawing.Size(1870, 554);
+            this.imgExhibit.TabIndex = 11;
+            this.imgExhibit.TabStop = false;
+            // 
+            // fpnlAnswers
+            // 
+            this.fpnlAnswers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.fpnlAnswers.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.fpnlAnswers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.fpnlAnswers.Location = new System.Drawing.Point(2, 644);
+            this.fpnlAnswers.Name = "fpnlAnswers";
+            this.fpnlAnswers.Size = new System.Drawing.Size(1871, 215);
+            this.fpnlAnswers.TabIndex = 14;
+            // 
+            // txtQuestion
+            // 
+            this.txtQuestion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtQuestion.BackColor = System.Drawing.Color.White;
+            this.txtQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuestion.Location = new System.Drawing.Point(3, 3);
+            this.txtQuestion.Multiline = true;
+            this.txtQuestion.Name = "txtQuestion";
+            this.txtQuestion.ReadOnly = true;
+            this.txtQuestion.Size = new System.Drawing.Size(1870, 635);
+            this.txtQuestion.TabIndex = 6;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(464, 7);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(120, 30);
+            this.btnSave.TabIndex = 15;
+            this.btnSave.Text = "Save Session";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btbLoad
+            // 
+            this.btbLoad.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btbLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btbLoad.Location = new System.Drawing.Point(590, 7);
+            this.btbLoad.Name = "btbLoad";
+            this.btbLoad.Size = new System.Drawing.Size(120, 30);
+            this.btbLoad.TabIndex = 16;
+            this.btbLoad.Text = "Load Session";
+            this.btbLoad.UseVisualStyleBackColor = true;
+            this.btbLoad.Click += new System.EventHandler(this.btbLoad_Click);
+            // 
+            // btnNew
+            // 
+            this.btnNew.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Location = new System.Drawing.Point(338, 7);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(120, 30);
+            this.btnNew.TabIndex = 17;
+            this.btnNew.Text = "New Session";
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 522);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.btnNew);
+            this.Controls.Add(this.btbLoad);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.lblNumber);
             this.Controls.Add(this.cmbQuestion);
-            this.Controls.Add(this.btnExhibit);
-            this.Controls.Add(this.imgExhibit);
             this.Controls.Add(this.btnExplain);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbSet);
             this.Controls.Add(this.lblQuestion);
-            this.Controls.Add(this.txtAnswer);
             this.Controls.Add(this.btnAnswer);
-            this.Controls.Add(this.txtQuestion);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.lblTopic);
+            this.Controls.Add(this.panel1);
+            this.MinimumSize = new System.Drawing.Size(860, 640);
             this.Name = "Form1";
             this.Text = "CEH Questions";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgExhibit)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -221,16 +274,20 @@
         private System.Windows.Forms.Label lblTopic;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.TextBox txtQuestion;
         private System.Windows.Forms.Button btnAnswer;
-        private System.Windows.Forms.TextBox txtAnswer;
         private System.Windows.Forms.Label lblQuestion;
         private System.Windows.Forms.ComboBox cmbSet;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExplain;
-        private System.Windows.Forms.PictureBox imgExhibit;
-        private System.Windows.Forms.Button btnExhibit;
         private System.Windows.Forms.ComboBox cmbQuestion;
+        private System.Windows.Forms.Label lblNumber;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox imgExhibit;
+        private System.Windows.Forms.FlowLayoutPanel fpnlAnswers;
+        private System.Windows.Forms.TextBox txtQuestion;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btbLoad;
+        private System.Windows.Forms.Button btnNew;
     }
 }
 
