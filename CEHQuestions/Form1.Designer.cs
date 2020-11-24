@@ -155,6 +155,9 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.imgExhibit);
             this.panel1.Controls.Add(this.fpnlAnswers);
@@ -204,7 +207,6 @@
             // 
             // btnSave
             // 
-            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(464, 7);
             this.btnSave.Name = "btnSave";
@@ -216,7 +218,6 @@
             // 
             // btbLoad
             // 
-            this.btbLoad.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btbLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbLoad.Location = new System.Drawing.Point(590, 7);
             this.btbLoad.Name = "btbLoad";
@@ -228,7 +229,6 @@
             // 
             // btnNew
             // 
-            this.btnNew.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNew.Location = new System.Drawing.Point(338, 7);
             this.btnNew.Name = "btnNew";
@@ -260,7 +260,7 @@
             this.Controls.Add(this.panel1);
             this.MinimumSize = new System.Drawing.Size(860, 640);
             this.Name = "Form1";
-            this.Text = "CEH Questions";
+            this.Text = "Exam Prep";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
